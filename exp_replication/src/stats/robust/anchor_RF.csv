@@ -1,0 +1,1001 @@
+dataset,predrule0,predimprt0,predrule1,predimprt1,same
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF nd <= 2.00 AND nrev <= 4.00 THEN defect = False,[1],IF nrev <= 4.00 AND app > 2.00 THEN defect = False,[1],False
+openstack,IF nd <= 1.00 AND rsawr <= 0.29 THEN defect = False,[1],IF nd <= 1.00 AND asawr <= 0.05 THEN defect = False,[1],False
+openstack,IF nrev <= 4.00 AND app > 2.00 THEN defect = False,[1],IF nd <= 2.00 AND nrev > 1.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND ent <= 0.86 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND 0.66 < age <= 9.98 AND 0.63 < ent <= 0.86 AND rsawr > 0.63 AND nrev > 1.00 AND 331.00 < rrexp <= 1213.00 AND self <= 0.00 AND 7.00 < ndev <= 44.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND 0.05 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 1.00 AND 7.00 < ndev <= 44.00 AND self <= 0.00 AND 2.98 < age <= 9.98 AND ns <= 1.00 AND 331.00 < rrexp <= 1213.00 AND rtime > 0.19 AND rsawr > 0.63 THEN defect = True,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND nd > 3.00 AND age > 2.98 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 AND app <= 3.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF nd <= 2.00 AND rtime > 0.19 THEN defect = False,[1],IF nd <= 2.00 AND age <= 0.66 THEN defect = False,[1],False
+openstack,IF la <= 17.00 AND nrev <= 2.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF age <= 0.66 THEN defect = False,[1],IF rtime > 8.36 AND app <= 3.00 AND 0.29 < rsawr <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rtime <= 8.36 AND asawr <= 0.19 THEN defect = False,[1],IF la <= 58.00 AND age <= 2.98 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nrev <= 2.00 AND rtime <= 8.36 THEN defect = False,[1],IF nrev <= 2.00 AND ndev > 44.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF age <= 0.66 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 331.00 < rrexp <= 703.50 AND self <= 0.00 AND 0.63 < ent <= 0.86 AND age > 0.66 AND asawr > 0.05 AND nrev > 4.00 AND nd <= 3.00 AND 18.00 < ndev <= 44.00 AND app <= 2.00 AND rsawr > 0.43 AND rtime > 8.36 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND self <= 0.00 AND 18.00 < ndev <= 44.00 AND 0.63 < ent <= 0.86 AND asawr > 0.19 AND nrev > 4.00 AND 331.00 < rrexp <= 703.50 AND ns <= 1.00 AND app <= 2.00 AND age > 0.66 AND rsawr > 0.29 AND rtime > 8.36 AND nd <= 3.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ndev <= 7.00 AND asawr <= 0.05 THEN defect = False,[1],IF nd <= 3.00 AND age <= 0.66 AND app > 2.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rtime > 8.36 THEN defect = False,[1],IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 3.00 AND asawr <= 0.19 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 2.98 < age <= 9.98 AND self <= 0.00 AND 703.50 < rrexp <= 1213.00 AND ndev <= 18.00 AND ns <= 1.00 AND rsawr > 0.63 THEN defect = True,[1],IF la > 58.00 AND nd <= 3.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 7.00 < ndev <= 18.00 AND asawr <= 0.19 AND self <= 0.00 AND 0.66 < age <= 9.98 AND 703.50 < rrexp <= 1213.00 AND rsawr > 0.63 THEN defect = True,[1],False
+openstack,IF nrev > 2.00 THEN defect = False,[1],IF la <= 58.00 AND age > 9.98 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ns > 1.00 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND app > 2.00 THEN defect = False,[1],False
+openstack,IF rtime <= 8.36 AND app <= 2.00 AND asawr <= 0.19 THEN defect = False,[1],IF rtime <= 8.36 AND rrexp > 331.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF nrev <= 4.00 AND ndev > 44.00 THEN defect = False,[1],IF age > 2.98 AND rrexp <= 703.50 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND nd <= 1.00 AND asawr > 0.01 AND 0.00 < ent <= 0.63 AND app > 3.00 AND 0.29 < rsawr <= 0.43 AND rtime > 0.19 AND rrexp > 1213.00 AND ndev > 18.00 AND self <= 0.00 AND age > 0.66 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND nd <= 1.00 AND 0.29 < rsawr <= 0.43 AND 0.00 < ent <= 0.63 AND rrexp > 1213.00 AND ns <= 1.00 AND rtime > 0.19 AND asawr > 0.01 AND app > 3.00 AND ndev > 18.00 AND age > 0.66 AND self <= 0.00 THEN defect = True,[1],True
+openstack,IF la > 17.00 AND self <= 0.00 AND 0.00 < ent <= 0.63 AND 331.00 < rrexp <= 1213.00 AND app > 2.00 AND age <= 2.98 AND nd <= 2.00 AND ndev > 18.00 AND asawr <= 0.19 AND rsawr > 0.63 AND rtime > 0.19 AND ns <= 1.00 THEN defect = True,[1],IF la > 17.00 AND nd <= 2.00 AND rrexp > 703.50 AND self <= 0.00 AND 0.00 < ent <= 0.63 AND age <= 2.98 AND ndev > 18.00 AND rsawr > 0.63 AND app > 2.00 AND rtime > 0.19 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF ndev <= 44.00 AND age <= 0.66 AND rrexp <= 1213.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF nd <= 1.00 AND ndev <= 44.00 THEN defect = False,[1],IF nd <= 1.00 AND age <= 0.66 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND app <= 2.00 THEN defect = False,[1],IF la <= 58.00 AND ndev <= 7.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF nrev <= 2.00 AND age <= 0.66 THEN defect = False,[1],IF nd <= 1.00 AND nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nd <= 1.00 AND rsawr <= 0.43 THEN defect = False,[1],IF nd <= 1.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rtime <= 2.06 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND ent <= 0.63 THEN defect = False,[1],IF la <= 58.00 AND ent <= 0.63 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 0.63 < ent <= 0.86 AND 331.00 < rrexp <= 703.50 AND 2.00 < nrev <= 4.00 AND rtime > 8.36 AND app <= 2.00 AND self <= 0.00 AND ndev > 7.00 AND rsawr > 0.43 AND asawr > 0.19 AND 2.98 < age <= 9.98 THEN defect = True,[1],IF la > 58.00 AND 0.63 < ent <= 0.86 AND rtime > 8.36 AND 2.00 < nrev <= 4.00 AND asawr > 0.19 AND app <= 2.00 AND self <= 0.00 AND 0.43 < rsawr <= 0.63 AND ndev > 7.00 AND 331.00 < rrexp <= 703.50 AND 2.98 < age <= 9.98 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF rrexp > 331.00 THEN defect = False,[1],IF nrev <= 2.00 AND rtime <= 8.36 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND ent <= 0.63 THEN defect = False,[1],False
+openstack,IF ent <= 0.86 AND rrexp <= 331.00 AND asawr <= 0.05 THEN defect = False,[1],IF rrexp <= 331.00 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND nd <= 1.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF nrev <= 2.00 AND age > 9.98 THEN defect = False,[1],False
+openstack,IF age > 9.98 AND rrexp <= 331.00 AND rsawr <= 0.29 THEN defect = False,[1],IF rtime > 8.36 AND age > 9.98 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF age <= 0.66 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF nrev <= 4.00 AND rtime <= 2.06 THEN defect = False,[1],IF ent <= 0.63 AND rtime <= 2.06 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rsawr > 0.63 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF ent <= 0.63 AND nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF nd <= 2.00 AND ent <= 0.86 AND age > 0.66 THEN defect = False,[1],IF nd <= 2.00 AND app <= 3.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rsawr <= 0.43 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF nrev <= 2.00 THEN defect = False,[1],IF la <= 58.00 AND nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND age <= 0.66 THEN defect = False,[1],IF la <= 58.00 AND ndev > 44.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND nrev <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF age > 0.66 AND la > 58.00 AND self <= 0.00 AND ent > 0.00 AND 1.00 < nrev <= 2.00 AND rtime > 2.06 AND ndev > 7.00 AND 2.00 < app <= 3.00 AND rrexp > 1213.00 AND rsawr <= 0.63 AND asawr > 0.05 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND ns <= 1.00 AND ent > 0.00 AND 1.00 < nrev <= 2.00 AND rtime > 2.06 AND ndev > 18.00 AND 2.00 < app <= 3.00 AND rrexp > 1213.00 AND self <= 0.00 AND age > 0.66 AND asawr > 0.05 AND rsawr <= 0.63 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 17.00 AND nd <= 2.00 AND ndev > 7.00 AND ent > 0.00 AND nrev > 2.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND rrexp > 1213.00 AND app > 3.00 AND 0.05 < asawr <= 0.19 AND ns <= 1.00 AND 0.29 < rsawr <= 0.43 THEN defect = True,[1],IF la > 17.00 AND nd <= 2.00 AND 0.66 < age <= 2.98 AND ent > 0.00 AND nrev > 2.00 AND rtime > 8.36 AND 7.00 < ndev <= 44.00 AND self <= 0.00 AND app > 3.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 AND rrexp > 1213.00 AND 0.29 < rsawr <= 0.43 THEN defect = True,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rsawr <= 0.63 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF app > 2.00 AND nd <= 1.00 AND rsawr > 0.29 AND 0.00 < ent <= 0.86 AND 17.00 < la <= 58.00 AND nrev > 4.00 AND age > 2.98 AND rrexp > 703.50 AND asawr > 0.01 AND ns <= 1.00 AND ndev > 7.00 THEN defect = True,[1],IF la > 17.00 AND nd <= 1.00 AND 0.01 < asawr <= 0.19 AND 0.00 < ent <= 0.86 AND app > 2.00 AND nrev > 4.00 AND 0.29 < rsawr <= 0.63 AND 0.66 < age <= 9.98 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF la > 58.00 AND age > 2.98 AND 0.63 < ent <= 0.86 AND asawr <= 0.19 AND rsawr > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND app <= 2.00 AND ndev > 44.00 AND ns <= 1.00 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],IF la > 58.00 AND self <= 0.00 AND 0.63 < ent <= 0.86 AND app <= 2.00 AND rsawr > 0.63 AND nrev > 4.00 AND asawr <= 0.19 AND rtime > 8.36 AND 703.50 < rrexp <= 1213.00 AND age > 0.66 AND ndev > 44.00 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND asawr > 0.05 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 0.29 < rsawr <= 0.43 AND self <= 0.00 AND 0.63 < ent <= 0.86 AND app > 3.00 AND nrev > 4.00 AND rrexp <= 1213.00 AND 7.00 < ndev <= 44.00 AND ns <= 1.00 AND asawr > 0.01 AND rtime > 8.36 AND nd <= 3.00 AND 0.66 < age <= 2.98 THEN defect = True,[1],IF la > 58.00 AND 0.66 < age <= 2.98 AND nd <= 3.00 AND 0.63 < ent <= 0.86 AND app > 3.00 AND nrev > 4.00 AND 0.29 < rsawr <= 0.43 AND self <= 0.00 AND 0.01 < asawr <= 0.19 AND rtime > 8.36 AND ndev <= 44.00 AND ns <= 1.00 AND rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND rrexp > 331.00 AND ndev <= 7.00 AND self <= 0.00 AND 0.00 < ent <= 0.63 AND app > 3.00 AND asawr <= 0.19 AND nrev > 4.00 AND age > 0.66 AND ns <= 1.00 AND rtime > 8.36 AND nd <= 3.00 AND rsawr > 0.63 THEN defect = True,[1],IF la > 58.00 AND rtime > 8.36 AND ndev <= 18.00 AND 0.00 < ent <= 0.63 AND rsawr > 0.63 AND nrev > 4.00 AND self <= 0.00 AND asawr <= 0.19 AND age > 0.66 AND nd <= 3.00 AND app > 3.00 AND rrexp > 331.00 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rrexp > 1213.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF nd <= 2.00 AND rsawr <= 0.29 THEN defect = False,[1],IF rtime > 8.36 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rsawr <= 0.43 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 2.98 < age <= 9.98 AND 0.63 < ent <= 0.86 AND app <= 2.00 AND rtime > 8.36 AND nrev > 4.00 AND 0.01 < asawr <= 0.19 AND ndev > 44.00 AND rsawr <= 0.63 AND ns <= 1.00 AND self <= 0.00 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],IF la > 58.00 AND 0.66 < age <= 9.98 AND 0.01 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND 703.50 < rrexp <= 1213.00 AND self <= 0.00 AND ns <= 1.00 AND rtime > 8.36 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND asawr > 0.01 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF nrev <= 4.00 AND asawr <= 0.01 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND nd <= 2.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.86 AND nrev <= 2.00 AND rsawr <= 0.63 THEN defect = False,[1],IF nrev <= 2.00 AND asawr <= 0.05 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF nd <= 2.00 AND age <= 0.66 THEN defect = False,[1],IF nd <= 2.00 AND age <= 2.98 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND app > 3.00 AND self <= 0.00 AND 0.05 < asawr <= 0.19 AND 7.00 < ndev <= 18.00 AND 0.29 < rsawr <= 0.43 AND rrexp > 1213.00 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND app > 3.00 AND 7.00 < ndev <= 44.00 AND 0.05 < asawr <= 0.19 AND 0.29 < rsawr <= 0.63 AND rrexp > 331.00 THEN defect = True,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rsawr <= 0.43 THEN defect = False,[1],IF la <= 58.00 AND age <= 0.66 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.63 AND age > 2.98 THEN defect = False,[1],IF ent <= 0.63 AND rtime > 8.36 AND asawr > 0.05 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND ndev <= 44.00 AND rsawr > 0.29 AND 0.63 < ent <= 0.86 AND nd <= 2.00 AND nrev > 4.00 AND rtime > 8.36 AND ns <= 1.00 AND app > 3.00 AND self <= 0.00 AND asawr > 0.05 AND 331.00 < rrexp <= 1213.00 THEN defect = True,[1],IF la > 58.00 AND ns <= 1.00 AND ndev <= 18.00 AND 0.63 < ent <= 0.86 AND rtime > 8.36 AND nrev > 4.00 AND asawr > 0.05 AND rsawr > 0.29 AND self <= 0.00 AND app > 3.00 AND nd <= 2.00 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF ns > 1.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF nrev <= 4.00 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND 2.98 < age <= 9.98 AND 0.01 < asawr <= 0.05 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND rtime > 8.36 AND rrexp > 1213.00 AND self <= 0.00 AND app > 3.00 AND rsawr <= 0.63 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND rtime > 8.36 AND 0.00 < ent <= 0.86 AND 0.01 < asawr <= 0.19 AND nrev > 4.00 AND 2.98 < age <= 9.98 AND rrexp > 703.50 AND app > 3.00 AND ns <= 1.00 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF la <= 58.00 AND ndev <= 18.00 THEN defect = False,[1],IF nrev <= 4.00 AND rsawr <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rrexp > 1213.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND asawr > 0.05 THEN defect = False,[1],IF la <= 58.00 AND ndev > 44.00 THEN defect = False,[1],False
+openstack,IF age > 9.98 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ns > 1.00 AND age <= 0.66 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nrev <= 4.00 AND rtime > 0.19 THEN defect = False,[1],IF nrev <= 4.00 AND rtime <= 8.36 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF ent <= 0.63 AND nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 2.00 AND rtime > 8.36 AND app > 3.00 AND self <= 0.00 AND 0.01 < asawr <= 0.19 AND rrexp > 331.00 AND 0.29 < rsawr <= 0.43 AND 2.98 < age <= 9.98 THEN defect = True,[1],IF la > 58.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 2.00 AND rtime > 8.36 AND 0.66 < age <= 9.98 AND ndev > 44.00 AND app > 2.00 AND rrexp > 1213.00 AND 0.01 < asawr <= 0.19 AND 0.29 < rsawr <= 0.43 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rtime > 8.36 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ns > 1.00 THEN defect = False,[1],IF ns > 1.00 AND rsawr <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND age > 9.98 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND nrev <= 2.00 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 18.00 < ndev <= 44.00 AND nd <= 2.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND rrexp > 1213.00 AND self <= 0.00 AND app > 3.00 AND 0.66 < age <= 2.98 AND 0.05 < asawr <= 0.19 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND 7.00 < ndev <= 44.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND self <= 0.00 AND rsawr <= 0.63 AND app > 3.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 AND rrexp > 1213.00 THEN defect = True,[1],False
+openstack,IF la > 17.00 AND nd <= 2.00 AND ndev <= 7.00 AND 0.00 < ent <= 0.63 AND app > 3.00 AND rsawr > 0.63 AND nrev > 2.00 AND rtime > 8.36 AND 703.50 < rrexp <= 1213.00 AND 0.01 < asawr <= 0.19 AND age > 0.66 AND ns <= 1.00 THEN defect = True,[1],IF la > 17.00 AND 0.01 < asawr <= 0.19 AND ns <= 1.00 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 2.00 AND ndev <= 44.00 AND self <= 0.00 AND nd <= 2.00 AND age > 0.66 AND rsawr > 0.63 AND rtime > 8.36 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nd <= 1.00 AND ns <= 1.00 AND ent <= 0.86 AND nrev > 2.00 AND rtime > 8.36 AND ndev > 7.00 AND age > 0.66 AND rsawr > 0.29 THEN defect = True,[1],IF nd <= 1.00 AND self <= 0.00 AND ns <= 1.00 AND ent <= 0.86 AND nrev > 2.00 AND rtime > 8.36 AND ndev > 7.00 AND app > 3.00 AND age > 0.66 AND rsawr > 0.43 THEN defect = True,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 2.98 < age <= 9.98 AND 0.00 < ent <= 0.86 AND 0.05 < asawr <= 0.19 AND nrev > 2.00 AND rtime > 8.36 AND rsawr > 0.43 AND ndev <= 44.00 AND ns <= 1.00 AND 331.00 < rrexp <= 703.50 AND app > 2.00 THEN defect = True,[1],IF la > 58.00 AND nd > 2.00 AND ns <= 1.00 AND 0.63 < ent <= 0.86 AND rsawr > 0.43 AND 2.98 < age <= 9.98 AND nrev > 2.00 AND rtime > 8.36 AND ndev <= 44.00 AND self <= 0.00 AND 0.05 < asawr <= 0.19 AND 331.00 < rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF la > 58.00 AND 0.66 < age <= 9.98 AND 0.01 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND rrexp > 1213.00 AND ndev > 44.00 AND rsawr <= 0.63 AND ns <= 1.00 AND app > 2.00 AND rtime > 8.36 AND self <= 0.00 THEN defect = True,[1],IF la > 58.00 AND rrexp > 1213.00 AND 0.00 < ent <= 0.86 AND app > 2.00 AND nrev > 4.00 AND 0.01 < asawr <= 0.19 AND rtime > 8.36 AND 2.98 < age <= 9.98 AND ns <= 1.00 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF ns <= 1.00 AND ent <= 0.86 AND asawr <= 0.01 AND rsawr <= 0.43 THEN defect = False,[1],IF ns <= 1.00 AND ndev > 44.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND asawr <= 0.01 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 0.29 < rsawr <= 0.63 AND 0.63 < ent <= 0.86 AND app > 2.00 AND nrev > 4.00 AND ns <= 1.00 AND 0.01 < asawr <= 0.19 AND ndev <= 7.00 AND self <= 0.00 AND 331.00 < rrexp <= 1213.00 AND rtime > 8.36 AND 0.66 < age <= 9.98 THEN defect = True,[1],IF la > 58.00 AND 0.29 < rsawr <= 0.63 AND 0.00 < ent <= 0.86 AND ndev <= 7.00 AND nrev > 4.00 AND app > 2.00 AND rtime > 8.36 AND 0.01 < asawr <= 0.19 AND ns <= 1.00 AND self <= 0.00 AND 0.66 < age <= 2.98 AND 331.00 < rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF app > 3.00 AND rsawr <= 0.29 THEN defect = False,[1],IF nd <= 2.00 AND ent <= 0.86 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rrexp > 1213.00 THEN defect = False,[1],IF la <= 58.00 AND ndev > 44.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF nd <= 2.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 4.00 AND rrexp > 703.50 AND ndev > 44.00 AND self <= 0.00 AND 0.29 < rsawr <= 0.63 AND la > 17.00 AND ns <= 1.00 AND asawr > 0.05 THEN defect = True,[1],IF ns <= 1.00 AND la > 17.00 AND asawr > 0.05 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 4.00 AND 0.29 < rsawr <= 0.43 AND rrexp > 331.00 AND nd <= 2.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF la > 17.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 18.00 < ndev <= 44.00 AND 0.66 < age <= 2.98 AND app > 3.00 AND rrexp > 703.50 AND asawr > 0.05 AND rsawr > 0.29 THEN defect = True,[1],IF la > 17.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 7.00 < ndev <= 44.00 AND 0.66 < age <= 2.98 AND self <= 0.00 AND app > 3.00 AND rrexp > 703.50 AND asawr > 0.05 AND 0.29 < rsawr <= 0.63 THEN defect = True,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND nd <= 2.00 AND self <= 0.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND rsawr > 0.29 AND 18.00 < ndev <= 44.00 AND app > 3.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 AND rrexp > 703.50 AND age <= 9.98 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND age <= 9.98 AND app > 3.00 AND 18.00 < ndev <= 44.00 AND 0.05 < asawr <= 0.19 AND rrexp > 703.50 AND rsawr > 0.29 THEN defect = True,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND ndev <= 18.00 THEN defect = False,[1],IF la <= 58.00 AND ndev <= 7.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND ns > 1.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF la <= 58.00 AND ent <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 703.50 < rrexp <= 1213.00 AND app > 3.00 AND age > 0.66 AND self <= 0.00 AND 0.01 < asawr <= 0.19 AND ndev > 18.00 AND rsawr > 0.43 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND ndev > 7.00 AND age > 0.66 AND app > 3.00 AND self <= 0.00 AND 0.01 < asawr <= 0.19 AND 703.50 < rrexp <= 1213.00 AND rsawr > 0.29 THEN defect = True,[1],False
+openstack,IF la > 58.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND ndev > 7.00 AND age <= 9.98 AND app > 3.00 AND rrexp > 1213.00 AND self <= 0.00 AND 0.01 < asawr <= 0.19 THEN defect = True,[1],IF la > 58.00 AND rsawr <= 0.63 AND ns <= 1.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND age <= 9.98 AND ndev > 7.00 AND app > 3.00 AND rrexp > 1213.00 AND 0.01 < asawr <= 0.19 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF nd <= 2.00 AND rtime > 8.36 THEN defect = False,[1],IF nd <= 2.00 AND ent <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.86 AND nrev <= 4.00 THEN defect = False,[1],IF nd <= 2.00 AND asawr <= 0.05 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND nd <= 1.00 AND 0.29 < rsawr <= 0.63 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 2.00 AND asawr > 0.19 AND 7.00 < ndev <= 44.00 AND rrexp <= 1213.00 AND self <= 0.00 AND ns <= 1.00 AND 0.66 < age <= 9.98 THEN defect = True,[1],IF la > 58.00 AND nd <= 1.00 AND ndev > 7.00 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 2.00 AND asawr > 0.05 AND 0.29 < rsawr <= 0.63 AND 0.66 < age <= 9.98 AND ns <= 1.00 AND rrexp <= 1213.00 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND asawr <= 0.05 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND self <= 0.00 AND 0.66 < age <= 2.98 AND 0.63 < ent <= 0.86 AND app > 3.00 AND nrev > 4.00 AND ns <= 1.00 AND 703.50 < rrexp <= 1213.00 AND rsawr > 0.63 AND 18.00 < ndev <= 44.00 AND rtime > 8.36 AND 0.01 < asawr <= 0.19 THEN defect = True,[1],IF la > 58.00 AND 703.50 < rrexp <= 1213.00 AND 0.66 < age <= 9.98 AND 0.00 < ent <= 0.86 AND rsawr > 0.63 AND nrev > 4.00 AND ndev <= 44.00 AND app > 3.00 AND 0.01 < asawr <= 0.19 AND rtime > 8.36 AND ns <= 1.00 AND nd <= 2.00 THEN defect = True,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND age > 0.66 AND 0.63 < ent <= 0.86 AND rsawr > 0.63 AND nrev > 2.00 AND 703.50 < rrexp <= 1213.00 AND app > 3.00 AND 7.00 < ndev <= 18.00 AND rtime > 8.36 AND ns <= 1.00 AND 0.01 < asawr <= 0.19 THEN defect = True,[1],IF la > 58.00 AND age > 0.66 AND 0.63 < ent <= 0.86 AND rsawr > 0.63 AND nrev > 2.00 AND ns <= 1.00 AND 703.50 < rrexp <= 1213.00 AND app > 3.00 AND self <= 0.00 AND 7.00 < ndev <= 18.00 AND rtime > 8.36 AND 0.01 < asawr <= 0.19 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF app > 3.00 AND rrexp <= 1213.00 AND rsawr <= 0.29 THEN defect = False,[1],IF ndev > 18.00 AND age > 2.98 AND app > 2.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND nd <= 2.00 THEN defect = False,[1],IF la <= 58.00 AND nd <= 2.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 0.29 < rsawr <= 0.43 AND nd <= 3.00 AND 0.01 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND rtime > 8.36 AND rrexp > 1213.00 AND app > 3.00 AND ns <= 1.00 AND self <= 0.00 AND age <= 9.98 THEN defect = True,[1],IF la > 58.00 AND 0.29 < rsawr <= 0.43 AND nd <= 3.00 AND 0.01 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND rtime > 8.36 AND app > 3.00 AND ns <= 1.00 AND rrexp > 331.00 AND age <= 9.98 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND ent <= 0.63 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND asawr <= 0.01 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF rtime > 0.19 AND self <= 0.00 AND age > 0.66 AND asawr > 0.05 THEN defect = False,[1],IF age <= 2.98 AND rrexp <= 703.50 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND ndev <= 18.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND age <= 9.98 AND app > 3.00 AND rrexp > 1213.00 AND 0.01 < asawr <= 0.19 AND 7.00 < ndev <= 44.00 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND age <= 9.98 AND app > 3.00 AND rrexp > 1213.00 AND 0.01 < asawr <= 0.19 AND 18.00 < ndev <= 44.00 THEN defect = True,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la > 17.00 AND rsawr > 0.29 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 4.00 AND rrexp > 703.50 AND ns <= 1.00 AND rtime > 8.36 AND ndev <= 44.00 AND asawr > 0.01 AND 2.98 < age <= 9.98 THEN defect = True,[1],IF rtime > 8.36 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 4.00 AND rsawr > 0.29 AND 18.00 < ndev <= 44.00 AND rrexp > 331.00 AND 2.98 < age <= 9.98 AND la > 17.00 AND asawr > 0.05 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF ns > 1.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND age <= 0.66 THEN defect = False,[1],IF la <= 58.00 AND ent <= 0.86 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND ndev <= 44.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND rrexp > 703.50 AND 7.00 < ndev <= 18.00 AND 0.63 < ent <= 0.86 AND ns <= 1.00 AND nrev > 4.00 AND rtime > 8.36 AND asawr <= 0.19 AND nd <= 3.00 AND self <= 0.00 AND app > 3.00 AND 0.29 < rsawr <= 0.43 AND age > 0.66 THEN defect = True,[1],IF la > 58.00 AND self <= 0.00 AND 7.00 < ndev <= 18.00 AND 0.63 < ent <= 0.86 AND ns <= 1.00 AND nrev > 4.00 AND rtime > 8.36 AND 0.29 < rsawr <= 0.43 AND nd <= 3.00 AND app > 3.00 AND asawr <= 0.19 AND rrexp > 703.50 THEN defect = True,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND nrev <= 4.00 THEN defect = False,[1],IF la <= 58.00 AND app > 2.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 3.00 AND 0.29 < rsawr <= 0.43 AND 0.00 < ent <= 0.63 AND 0.01 < asawr <= 0.19 AND nrev > 4.00 AND rrexp > 331.00 AND self <= 0.00 AND rtime > 8.36 AND app > 3.00 AND ndev > 7.00 AND ns <= 1.00 AND age > 0.66 THEN defect = True,[1],IF la > 58.00 AND 0.01 < asawr <= 0.19 AND 0.29 < rsawr <= 0.63 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 4.00 AND ns <= 1.00 AND rrexp > 331.00 AND self <= 0.00 AND nd <= 3.00 AND ndev > 7.00 AND rtime > 8.36 AND age > 0.66 THEN defect = True,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF rtime > 2.06 THEN defect = False,[1],IF la <= 58.00 AND ndev > 44.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND nd > 3.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND ndev <= 7.00 THEN defect = False,[1],IF la <= 58.00 AND ndev <= 7.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF asawr <= 0.19 AND la > 58.00 AND app > 2.00 AND self <= 0.00 AND 0.63 < ent <= 0.86 AND nd <= 2.00 AND nrev > 4.00 AND 2.98 < age <= 9.98 AND ns <= 1.00 AND rrexp > 703.50 AND rtime > 8.36 AND rsawr <= 0.63 THEN defect = True,[1],IF la > 58.00 AND app > 2.00 AND asawr <= 0.19 AND 0.63 < ent <= 0.86 AND rtime > 8.36 AND nrev > 4.00 AND nd <= 2.00 AND ns <= 1.00 AND self <= 0.00 AND rrexp > 703.50 AND 0.66 < age <= 9.98 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ns > 1.00 AND ndev <= 44.00 THEN defect = False,[1],IF ns > 1.00 AND age > 9.98 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rtime > 8.36 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF ndev <= 44.00 AND app <= 2.00 AND asawr <= 0.01 THEN defect = False,[1],IF nd <= 3.00 AND age <= 0.66 AND rrexp <= 703.50 THEN defect = False,[1],False
+openstack,IF nd <= 3.00 AND asawr <= 0.05 AND rtime > 8.36 AND ndev <= 44.00 AND rsawr <= 0.29 THEN defect = False,[1],IF rtime > 0.19 AND ndev <= 18.00 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ns > 1.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND asawr > 0.05 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],False
+openstack,IF nd <= 1.00 AND rsawr > 0.43 AND 0.00 < ent <= 0.63 AND app > 2.00 AND nrev > 2.00 AND ns <= 1.00 AND rrexp > 703.50 AND 0.05 < asawr <= 0.19 AND age > 0.66 AND ndev > 7.00 THEN defect = True,[1],IF nd <= 1.00 AND 0.00 < ent <= 0.63 AND app > 2.00 AND nrev > 2.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 AND rsawr > 0.43 AND ndev > 18.00 AND rrexp > 703.50 AND age > 0.66 THEN defect = True,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND self <= 0.00 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 4.00 AND 0.05 < asawr <= 0.19 AND 703.50 < rrexp <= 1213.00 AND age > 0.66 AND rsawr > 0.63 AND app > 3.00 AND 7.00 < ndev <= 18.00 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND rsawr > 0.63 AND 0.00 < ent <= 0.63 AND 0.05 < asawr <= 0.19 AND nrev > 4.00 AND self <= 0.00 AND ns <= 1.00 AND app > 3.00 AND rtime > 8.36 AND 7.00 < ndev <= 18.00 AND age > 0.66 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF rtime > 2.06 AND ndev > 18.00 AND age > 2.98 AND rsawr <= 0.63 THEN defect = False,[1],IF rtime > 2.06 AND rsawr <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rtime > 8.36 THEN defect = False,[1],IF la <= 58.00 AND rrexp <= 331.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND nd <= 2.00 THEN defect = False,[1],IF la <= 58.00 AND rtime > 2.06 THEN defect = False,[1],False
+openstack,IF la > 17.00 AND nd <= 1.00 AND 0.43 < rsawr <= 0.63 AND 0.00 < ent <= 0.86 AND app > 3.00 AND 2.00 < nrev <= 4.00 AND rtime <= 8.36 AND asawr > 0.05 AND ns <= 1.00 AND age > 9.98 THEN defect = True,[1],IF 17.00 < la <= 58.00 AND nd <= 1.00 AND rrexp > 331.00 AND 0.00 < ent <= 0.86 AND app > 3.00 AND nrev > 2.00 AND ns <= 1.00 AND 0.43 < rsawr <= 0.63 AND asawr > 0.19 AND age > 2.98 THEN defect = True,[1],False
+openstack,IF la > 58.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND ns <= 1.00 AND self <= 0.00 AND app > 3.00 AND rsawr <= 0.63 AND 0.66 < age <= 9.98 AND rtime > 8.36 THEN defect = True,[1],IF la > 58.00 AND self <= 0.00 AND 0.63 < ent <= 0.86 AND ns <= 1.00 AND nrev > 4.00 AND app > 3.00 AND rrexp > 703.50 AND 2.98 < age <= 9.98 AND 0.05 < asawr <= 0.19 AND rtime > 8.36 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.63 AND age > 9.98 THEN defect = False,[1],IF nd <= 2.00 AND ent <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 4.00 AND nd <= 2.00 AND ndev > 18.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND ns <= 1.00 AND app > 3.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND self <= 0.00 AND rsawr > 0.43 THEN defect = True,[1],IF la > 4.00 AND nd <= 2.00 AND ndev > 18.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 0.66 < age <= 9.98 AND ns <= 1.00 AND app > 3.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND rsawr > 0.29 THEN defect = True,[1],False
+openstack,IF app <= 2.00 AND asawr > 0.01 AND rsawr <= 0.43 THEN defect = False,[1],IF ndev > 18.00 AND age <= 0.66 AND rsawr <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF nrev <= 2.00 THEN defect = False,[1],IF la <= 58.00 AND app <= 3.00 AND asawr <= 0.01 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND ndev <= 7.00 THEN defect = False,[1],IF la <= 58.00 AND age > 0.66 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la > 17.00 AND 0.29 < rsawr <= 0.43 AND rtime > 8.36 AND 0.63 < ent <= 0.86 AND app > 2.00 AND self <= 0.00 AND nrev > 4.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND age <= 9.98 AND nd <= 3.00 AND ns <= 1.00 THEN defect = True,[1],IF la > 17.00 AND age <= 9.98 AND ndev > 18.00 AND 0.05 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND rrexp > 1213.00 AND self <= 0.00 AND app > 2.00 AND 0.29 < rsawr <= 0.43 AND ns <= 1.00 AND rtime > 8.36 AND nd <= 3.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND rrexp <= 703.50 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND age > 9.98 THEN defect = False,[1],False
+openstack,IF nrev <= 4.00 AND age <= 0.66 THEN defect = False,[1],IF nrev <= 4.00 AND age <= 0.66 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la > 17.00 AND nd <= 2.00 AND 0.66 < age <= 2.98 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND ndev > 18.00 AND self <= 0.00 AND app > 2.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND ns <= 1.00 THEN defect = True,[1],IF la > 17.00 AND nd <= 2.00 AND ndev > 18.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND ns <= 1.00 AND self <= 0.00 AND app > 2.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND 0.66 < age <= 2.98 THEN defect = True,[1],True
+openstack,IF la > 17.00 AND age <= 9.98 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND ndev > 7.00 AND rrexp > 1213.00 AND app > 3.00 AND self <= 0.00 AND 0.05 < asawr <= 0.19 AND 0.29 < rsawr <= 0.63 AND ns <= 1.00 THEN defect = True,[1],IF la > 17.00 AND ns <= 1.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND app > 3.00 AND ndev > 44.00 AND rrexp > 1213.00 AND 0.05 < asawr <= 0.19 AND age <= 9.98 AND 0.29 < rsawr <= 0.43 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 0.29 < rsawr <= 0.63 AND 0.63 < ent <= 0.86 AND asawr > 0.05 AND nrev > 4.00 AND 331.00 < rrexp <= 1213.00 AND ns <= 1.00 AND 7.00 < ndev <= 44.00 AND rtime > 8.36 AND 0.66 < age <= 9.98 AND self <= 0.00 THEN defect = True,[1],IF la > 58.00 AND 0.43 < rsawr <= 0.63 AND 0.63 < ent <= 0.86 AND ns <= 1.00 AND self <= 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 703.50 < rrexp <= 1213.00 AND 0.66 < age <= 9.98 AND asawr > 0.05 AND 7.00 < ndev <= 44.00 THEN defect = True,[1],False
+openstack,IF la <= 58.00 AND ent <= 0.86 THEN defect = False,[1],IF la <= 58.00 AND rrexp <= 703.50 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nrev <= 2.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND 0.29 < rsawr <= 0.43 AND ndev <= 44.00 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 4.00 AND app > 2.00 AND nd <= 3.00 AND ns <= 1.00 AND age > 0.66 AND asawr <= 0.19 AND rrexp > 331.00 AND self <= 0.00 THEN defect = True,[1],IF la > 58.00 AND ns <= 1.00 AND 0.29 < rsawr <= 0.43 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 4.00 AND app > 2.00 AND self <= 0.00 AND nd <= 3.00 AND age > 0.66 AND ndev <= 44.00 THEN defect = True,[1],False
+openstack,IF nd <= 2.00 AND rtime > 2.06 THEN defect = False,[1],IF asawr <= 0.01 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 AND ent <= 0.63 THEN defect = False,[1],IF ent <= 0.63 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 AND rtime > 2.06 THEN defect = False,[1],IF nd <= 2.00 AND ent <= 0.63 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND 0.01 < asawr <= 0.05 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 4.00 AND ns <= 1.00 AND rrexp > 703.50 AND self <= 0.00 AND app > 3.00 AND 0.29 < rsawr <= 0.43 AND 0.66 < age <= 2.98 THEN defect = True,[1],IF la > 58.00 AND ns <= 1.00 AND rrexp > 1213.00 AND 0.00 < ent <= 0.63 AND nd <= 2.00 AND nrev > 4.00 AND rtime > 8.36 AND ndev > 7.00 AND app > 3.00 AND 0.29 < rsawr <= 0.43 AND 0.01 < asawr <= 0.19 AND 0.66 < age <= 2.98 AND self <= 0.00 THEN defect = True,[1],False
+openstack,IF ns <= 1.00 AND nd <= 1.00 AND rtime > 2.06 AND 0.00 < ent <= 0.63 AND 17.00 < la <= 58.00 AND nrev > 4.00 AND asawr > 0.01 AND age > 0.66 AND rrexp > 331.00 AND rsawr > 0.43 AND 7.00 < ndev <= 44.00 THEN defect = True,[1],IF rrexp > 331.00 AND rsawr > 0.29 AND nd <= 1.00 AND ndev > 7.00 AND 0.00 < ent <= 0.63 AND 17.00 < la <= 58.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND ns <= 1.00 AND age > 0.66 AND 0.01 < asawr <= 0.19 THEN defect = True,[1],False
+openstack,IF la <= 58.00 AND rsawr <= 0.63 THEN defect = False,[1],IF la <= 58.00 AND asawr <= 0.19 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 703.50 < rrexp <= 1213.00 AND 0.00 < ent <= 0.63 AND app > 2.00 AND nrev > 4.00 AND rtime > 8.36 AND ns <= 1.00 AND 0.01 < asawr <= 0.19 AND rsawr > 0.29 AND age > 0.66 AND ndev <= 18.00 THEN defect = True,[1],IF la > 58.00 AND 703.50 < rrexp <= 1213.00 AND 0.00 < ent <= 0.63 AND rtime > 8.36 AND nrev > 4.00 AND app > 2.00 AND 0.01 < asawr <= 0.19 AND ndev <= 18.00 AND rsawr > 0.29 AND age > 0.66 AND ns <= 1.00 THEN defect = True,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF self <= 0.00 AND rrexp > 1213.00 AND 0.66 < age <= 2.98 AND 0.00 < ent <= 0.63 AND app > 3.00 AND nrev > 4.00 AND asawr <= 0.19 AND ns <= 1.00 AND la > 17.00 AND rtime > 8.36 AND nd <= 2.00 AND ndev > 7.00 THEN defect = True,[1],IF la > 17.00 AND nd <= 2.00 AND rtime > 8.36 AND rrexp > 1213.00 AND 0.00 < ent <= 0.63 AND 0.66 < age <= 2.98 AND app > 3.00 AND nrev > 4.00 AND ndev > 44.00 AND asawr <= 0.19 AND self <= 0.00 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nrev <= 4.00 AND rrexp > 1213.00 THEN defect = False,[1],IF nd <= 2.00 AND nrev <= 4.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND 703.50 < rrexp <= 1213.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND app > 3.00 AND age > 0.66 AND ndev <= 44.00 AND 0.05 < asawr <= 0.19 AND rsawr > 0.29 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND rsawr > 0.29 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND app > 3.00 AND ndev <= 44.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 AND 703.50 < rrexp <= 1213.00 AND age > 0.66 THEN defect = True,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND 0.05 < asawr <= 0.19 AND age <= 9.98 AND 0.63 < ent <= 0.86 AND app > 3.00 AND nrev > 4.00 AND rtime > 8.36 AND nd <= 2.00 AND ndev > 7.00 AND ns <= 1.00 AND rrexp > 703.50 THEN defect = True,[1],IF la > 58.00 AND 0.05 < asawr <= 0.19 AND rrexp > 331.00 AND 0.63 < ent <= 0.86 AND nd <= 2.00 AND nrev > 4.00 AND rtime > 8.36 AND ndev > 7.00 AND app > 3.00 AND self <= 0.00 AND age <= 9.98 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.63 AND nrev <= 2.00 THEN defect = False,[1],IF ent <= 0.63 AND nrev <= 2.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 2.98 < age <= 9.98 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND rsawr <= 0.63 AND self <= 0.00 AND app > 2.00 AND rrexp > 1213.00 AND 0.01 < asawr <= 0.19 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND 0.66 < age <= 9.98 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND rsawr <= 0.63 AND self <= 0.00 AND 2.00 < app <= 3.00 AND ndev > 44.00 AND rrexp > 1213.00 AND 0.01 < asawr <= 0.19 AND ns <= 1.00 THEN defect = True,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND 2.98 < age <= 9.98 AND 0.63 < ent <= 0.86 AND rsawr > 0.63 AND nrev > 4.00 AND ns <= 1.00 AND app <= 2.00 AND ndev > 18.00 AND 0.01 < asawr <= 0.19 AND self <= 0.00 AND rtime > 8.36 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],IF la > 58.00 AND rsawr > 0.63 AND 0.01 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND rtime > 8.36 AND app <= 2.00 AND 2.98 < age <= 9.98 AND self <= 0.00 AND ndev > 44.00 AND ns <= 1.00 AND 703.50 < rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND nd > 3.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF age <= 9.98 AND app > 2.00 THEN defect = False,[1],IF nd > 3.00 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND nd <= 3.00 AND 703.50 < rrexp <= 1213.00 AND 0.63 < ent <= 0.86 AND rtime > 8.36 AND nrev > 4.00 AND rsawr > 0.43 AND ndev <= 18.00 AND self <= 0.00 AND app > 3.00 AND 0.66 < age <= 9.98 AND asawr <= 0.19 AND ns <= 1.00 THEN defect = True,[1],IF la > 58.00 AND rsawr > 0.43 AND ndev <= 18.00 AND 0.00 < ent <= 0.86 AND rtime > 8.36 AND nrev > 4.00 AND nd <= 3.00 AND self <= 0.00 AND 331.00 < rrexp <= 1213.00 AND ns <= 1.00 AND app > 3.00 AND asawr <= 0.19 AND 0.66 < age <= 2.98 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF nd <= 2.00 AND asawr > 0.19 AND rsawr > 0.43 THEN defect = False,[1],IF nd <= 2.00 AND rtime <= 2.06 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rrexp <= 703.50 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 AND rrexp <= 331.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.63 AND age > 2.98 THEN defect = False,[1],IF ent <= 0.63 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF nd <= 2.00 AND age > 9.98 AND app <= 3.00 THEN defect = False,[1],IF nd <= 2.00 AND ndev <= 7.00 AND asawr <= 0.19 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND 0.29 < rsawr <= 0.63 AND ndev > 7.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND self <= 0.00 AND ns <= 1.00 AND 0.05 < asawr <= 0.19 AND nd <= 2.00 AND 331.00 < rrexp <= 1213.00 THEN defect = True,[1],IF la > 58.00 AND nd <= 2.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND ndev > 7.00 AND 0.66 < age <= 2.98 AND 0.05 < asawr <= 0.19 AND rsawr > 0.29 AND 331.00 < rrexp <= 1213.00 THEN defect = True,[1],False
+openstack,IF ent > 0.86 AND rrexp <= 703.50 AND rsawr <= 0.29 THEN defect = False,[1],IF ent > 0.86 AND app <= 2.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND 0.63 < ent <= 0.86 AND rsawr > 0.29 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND ndev <= 44.00 AND app > 2.00 AND rrexp > 703.50 AND asawr > 0.05 AND 0.66 < age <= 2.98 THEN defect = True,[1],IF la > 58.00 AND 0.63 < ent <= 0.86 AND rsawr > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND 0.66 < age <= 2.98 AND app > 2.00 AND self <= 0.00 AND ndev <= 44.00 AND asawr > 0.05 AND rrexp > 703.50 THEN defect = True,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF app > 2.00 AND rrexp <= 703.50 AND rsawr <= 0.43 THEN defect = False,[1],IF ndev > 44.00 AND rrexp <= 703.50 AND rsawr <= 0.43 THEN defect = False,[1],False
+openstack,IF la > 58.00 AND rsawr > 0.29 AND 0.00 < ent <= 0.86 AND ns <= 1.00 AND nrev > 4.00 AND rtime > 8.36 AND ndev <= 44.00 AND app > 3.00 AND 0.05 < asawr <= 0.19 AND 331.00 < rrexp <= 1213.00 AND 0.66 < age <= 2.98 THEN defect = True,[1],IF la > 58.00 AND 331.00 < rrexp <= 703.50 AND 0.05 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND ndev <= 44.00 AND nrev > 4.00 AND rtime > 8.36 AND app > 3.00 AND 0.43 < rsawr <= 0.63 AND ns <= 1.00 AND 0.66 < age <= 2.98 THEN defect = True,[1],False
+openstack,IF ent <= 0.86 AND ndev <= 44.00 AND rrexp > 703.50 AND asawr > 0.01 AND rsawr <= 0.63 THEN defect = False,[1],IF ndev <= 44.00 AND rsawr <= 0.63 THEN defect = False,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF la <= 58.00 THEN defect = False,[1],True
+openstack,IF la > 58.00 AND nd <= 3.00 AND 331.00 < rrexp <= 1213.00 AND 0.63 < ent <= 0.86 AND app > 2.00 AND nrev > 4.00 AND ns <= 1.00 AND self <= 0.00 AND 0.01 < asawr <= 0.19 AND 0.66 < age <= 9.98 AND 7.00 < ndev <= 18.00 AND rsawr > 0.43 THEN defect = True,[1],IF la > 58.00 AND nd <= 3.00 AND rsawr > 0.43 AND 0.01 < asawr <= 0.19 AND 0.63 < ent <= 0.86 AND nrev > 4.00 AND 703.50 < rrexp <= 1213.00 AND rtime > 2.06 AND self <= 0.00 AND app > 2.00 AND 2.98 < age <= 9.98 AND ns <= 1.00 AND ndev <= 18.00 THEN defect = True,[1],False
+openstack,IF la > 58.00 AND nd <= 2.00 AND self <= 0.00 AND ns <= 1.00 AND ent > 0.63 AND nrev > 4.00 AND rtime > 8.36 AND age <= 2.98 AND app > 3.00 AND 703.50 < rrexp <= 1213.00 AND 0.01 < asawr <= 0.19 AND 0.29 < rsawr <= 0.63 THEN defect = True,[1],IF la > 58.00 AND rtime > 8.36 AND nd <= 2.00 AND ndev <= 18.00 AND ent > 0.00 AND nrev > 4.00 AND 0.01 < asawr <= 0.19 AND ns <= 1.00 AND app > 3.00 AND 0.29 < rsawr <= 0.63 AND self <= 0.00 AND 703.50 < rrexp <= 1213.00 AND age <= 2.98 THEN defect = True,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF nrev <= 2.00 THEN defect = False,[1],IF nrev <= 2.00 AND asawr <= 0.01 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 58.00 THEN defect = False,[1],IF  THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND asawr <= 0.19 THEN defect = False,[1],IF la <= 58.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+openstack,IF la <= 58.00 AND ent <= 0.86 THEN defect = False,[1],IF la <= 58.00 AND app <= 2.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF nrev <= 2.00 AND age > 9.98 THEN defect = False,[1],IF nrev <= 2.00 AND ndev <= 7.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 17.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],False
+openstack,IF la <= 17.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 17.00 THEN defect = False,[1],False
+openstack,IF 0.00 < ent <= 0.63 AND la > 58.00 AND age > 0.66 AND 0.01 < asawr <= 0.19 AND rtime > 8.36 AND nrev > 4.00 AND ns <= 1.00 AND self <= 0.00 AND rsawr <= 0.43 AND 18.00 < ndev <= 44.00 THEN defect = True,[1],IF la > 58.00 AND 0.01 < asawr <= 0.19 AND 0.00 < ent <= 0.86 AND ns <= 1.00 AND nrev > 4.00 AND rtime > 8.36 AND self <= 0.00 AND 7.00 < ndev <= 44.00 AND age > 0.66 THEN defect = True,[1],False
+openstack,IF la <= 58.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF la <= 4.00 THEN defect = False,[1],IF la <= 4.00 THEN defect = False,[1],True
+openstack,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+openstack,IF nrev <= 1.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],False
+openstack,IF ent <= 0.86 AND age <= 2.98 AND rsawr <= 0.29 THEN defect = False,[1],IF ent <= 0.86 AND ndev > 7.00 AND rrexp <= 1213.00 AND rsawr <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF hcmt > 5.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF rtime <= 0.19 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ndev > 2.00 THEN defect = False,[1],False
+qt,IF nrev > 1.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF ld <= 1.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la > 31.00 AND rtime > 4.93 AND 0.03 < rsawr <= 0.13 AND 1.00 < nd <= 2.00 AND 0.02 < asawr <= 0.06 AND 0.29 < ent <= 0.81 AND nrev > 2.00 AND ns <= 1.00 AND ld > 14.00 AND asexp > 17.00 AND ndev > 5.00 AND app <= 2.00 AND age <= 17.14 AND hcmt > 2.00 AND rsexp > 65.00 AND self <= 0.00 THEN defect = True,[1],IF la > 31.00 AND 0.03 < rsawr <= 0.13 AND age <= 17.14 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND ndev > 5.00 AND nrev > 2.00 AND rtime > 1.08 AND hcmt > 2.00 AND 0.02 < asawr <= 0.06 AND asexp > 17.00 AND nd > 1.00 AND ld > 14.00 AND self <= 0.00 THEN defect = True,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF asawr <= 0.01 THEN defect = False,[1],IF age > 0.48 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF asexp > 212.25 THEN defect = False,[1],IF rtime <= 0.19 AND age <= 0.48 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF rtime <= 0.19 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF asawr <= 0.01 THEN defect = False,[1],IF app <= 1.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF rtime <= 0.19 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF ld <= 3.00 AND rsexp > 612.00 THEN defect = False,[1],IF rsexp > 65.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF la <= 31.00 AND ent > 0.81 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF ent <= 0.00 AND app > 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF hcmt > 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la > 7.00 AND 0.02 < asawr <= 0.06 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND rtime > 4.93 AND hcmt > 2.00 AND nrev > 1.00 AND rsawr > 0.07 AND ndev > 5.00 AND app > 2.00 AND asexp > 77.00 AND ld > 14.00 AND self <= 0.00 AND rsexp > 612.00 AND age > 0.48 THEN defect = True,[1],IF la > 7.00 AND 0.02 < asawr <= 0.06 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND ndev > 5.00 AND rtime > 4.93 AND hcmt > 2.00 AND rsawr > 0.07 AND app > 2.00 AND asexp > 17.00 AND nrev > 1.00 AND self <= 0.00 AND age > 0.48 AND rsexp > 612.00 AND ld > 14.00 THEN defect = True,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 AND rsexp > 235.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF rsawr <= 0.03 THEN defect = False,[1],IF asexp <= 17.00 THEN defect = False,[1],False
+qt,IF rsawr <= 0.03 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND ld <= 1.00 AND rsawr <= 0.13 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND nrev > 2.00 AND age <= 17.14 AND nd <= 2.00 AND 1.00 < app <= 2.00 AND 235.00 < rsexp <= 612.00 AND 0.01 < asawr <= 0.02 AND asexp > 212.25 AND self <= 0.00 AND hcmt > 2.00 THEN defect = True,[1],IF la > 31.00 AND rtime > 4.93 AND 0.29 < ent <= 0.81 AND age <= 17.14 AND nrev > 2.00 AND hcmt > 5.00 AND app > 1.00 AND rsexp > 65.00 AND 0.01 < asawr <= 0.06 AND asexp > 17.00 THEN defect = True,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF rtime <= 0.19 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 AND rsexp > 612.00 THEN defect = False,[1],IF rtime <= 0.19 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF rtime <= 0.19 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF rtime <= 0.19 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF hcmt <= 5.00 AND rsawr <= 0.03 THEN defect = False,[1],IF nrev > 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ndev <= 11.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF hcmt <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ndev > 11.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 AND asexp <= 17.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF rsawr <= 0.03 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la > 31.00 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND ndev > 11.00 AND nrev > 2.00 AND app > 2.00 AND ld > 3.00 AND rtime > 4.93 AND asexp > 17.00 AND rsawr > 0.07 AND 0.48 < age <= 17.14 AND asawr <= 0.06 AND nd <= 1.00 AND self <= 0.00 AND hcmt > 5.00 AND rsexp > 612.00 THEN defect = True,[1],IF la > 31.00 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND rtime > 4.93 AND hcmt > 5.00 AND nrev > 2.00 AND app > 2.00 AND ndev > 11.00 AND 17.00 < asexp <= 212.25 AND rsawr > 0.07 AND 0.48 < age <= 17.14 AND asawr <= 0.06 AND self <= 0.00 AND ld > 14.00 AND rsexp > 612.00 THEN defect = True,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ns > 1.00 THEN defect = False,[1],IF la > 7.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF hcmt <= 5.00 THEN defect = False,[1],IF nd <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF asexp > 17.00 AND la > 31.00 AND ns <= 1.00 AND 0.00 < ent <= 0.29 AND nrev > 2.00 AND app > 1.00 AND age > 0.48 AND rsawr > 0.03 AND rtime > 4.93 AND 0.01 < asawr <= 0.06 AND hcmt > 5.00 AND rsexp > 65.00 THEN defect = True,[1],IF la > 31.00 AND app > 1.00 AND ns <= 1.00 AND 0.00 < ent <= 0.29 AND age > 0.48 AND nrev > 2.00 AND rtime > 4.93 AND ld > 14.00 AND 0.07 < rsawr <= 0.13 AND hcmt > 5.00 AND 0.01 < asawr <= 0.06 AND self <= 0.00 AND 77.00 < asexp <= 212.25 AND rsexp > 235.00 THEN defect = True,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la > 31.00 AND 0.03 < rsawr <= 0.13 AND ent > 0.29 AND nrev > 2.00 AND rtime > 1.08 AND app > 1.00 AND 0.01 < asawr <= 0.06 AND rsexp > 235.00 AND asexp > 77.00 AND ns <= 1.00 AND age > 0.48 AND self <= 0.00 THEN defect = True,[1],IF la > 31.00 AND ns <= 1.00 AND ent > 0.00 AND nrev > 2.00 AND age > 0.48 AND rtime > 1.08 AND asexp > 77.00 AND 0.01 < asawr <= 0.06 AND app > 1.00 AND hcmt > 2.00 AND rsexp > 235.00 AND 0.03 < rsawr <= 0.13 AND self <= 0.00 THEN defect = True,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF rtime > 4.93 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ld <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND rtime > 4.93 AND 0.29 < ent <= 0.81 AND 5.00 < ndev <= 11.00 AND app > 2.00 AND rsexp > 235.00 AND nrev > 2.00 AND age <= 17.14 AND 0.07 < rsawr <= 0.13 AND asexp > 212.25 AND 0.01 < asawr <= 0.06 AND hcmt > 5.00 AND ld > 14.00 AND self <= 0.00 THEN defect = True,[1],IF la > 31.00 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND nrev > 2.00 AND app > 2.00 AND ld > 14.00 AND 5.00 < ndev <= 11.00 AND self <= 0.00 AND asexp > 17.00 AND 0.07 < rsawr <= 0.13 AND hcmt > 5.00 AND rsexp > 235.00 AND 0.01 < asawr <= 0.02 AND age <= 17.14 THEN defect = True,[1],False
+qt,IF nd <= 2.00 AND asawr > 0.02 THEN defect = False,[1],IF rsexp <= 235.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF asexp > 17.00 THEN defect = False,[1],IF la <= 31.00 AND age <= 0.48 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 AND hcmt > 5.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF 0.29 < ent <= 0.81 AND la > 31.00 AND rtime > 1.08 AND nd > 2.00 AND ld > 14.00 AND nrev > 2.00 AND ndev > 5.00 AND 0.48 < age <= 17.14 AND asexp > 17.00 AND hcmt > 5.00 AND 0.03 < rsawr <= 0.13 AND app <= 2.00 AND 0.02 < asawr <= 0.06 AND self <= 0.00 THEN defect = True,[1],IF la > 31.00 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND nrev > 2.00 AND 1.00 < app <= 2.00 AND 0.48 < age <= 17.14 AND ndev > 11.00 AND 0.03 < rsawr <= 0.13 AND rsexp > 65.00 AND 0.02 < asawr <= 0.06 AND hcmt > 5.00 AND asexp > 17.00 AND self <= 0.00 AND ld > 14.00 THEN defect = True,[1],False
+qt,IF ld <= 3.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF rtime <= 1.08 THEN defect = False,[1],IF ndev <= 5.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+qt,IF asawr > 0.01 THEN defect = False,[1],IF ld <= 1.00 AND rsexp > 235.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF nd > 1.00 THEN defect = False,[1],False
+qt,IF age > 17.14 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF ent <= 0.81 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF 0.48 < age <= 4.51 AND la > 7.00 AND ns <= 1.00 AND 0.03 < rsawr <= 0.13 AND 0.29 < ent <= 0.81 AND ndev > 11.00 AND nrev > 2.00 AND 1.00 < app <= 2.00 AND rtime > 4.93 AND 0.02 < asawr <= 0.06 AND rsexp > 235.00 AND asexp > 212.25 AND self <= 0.00 AND ld <= 1.00 AND 2.00 < hcmt <= 5.00 AND nd <= 1.00 THEN defect = True,[1],IF la > 7.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND ndev > 11.00 AND nrev > 2.00 AND hcmt > 2.00 AND 1.00 < app <= 2.00 AND rtime > 4.93 AND 0.03 < rsawr <= 0.13 AND rsexp > 612.00 AND 0.48 < age <= 4.51 AND nd <= 1.00 AND asexp > 17.00 AND ld <= 3.00 AND 0.02 < asawr <= 0.06 AND self <= 0.00 THEN defect = True,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ent > 0.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF 0.29 < ent <= 0.81 AND la > 31.00 AND ns <= 1.00 AND 1.00 < app <= 2.00 AND nrev > 2.00 AND ndev > 2.00 AND ld > 3.00 AND rtime > 4.93 AND 0.48 < age <= 4.51 AND 17.00 < asexp <= 212.25 AND rsexp > 235.00 AND 0.07 < rsawr <= 0.13 AND self <= 0.00 AND 0.01 < asawr <= 0.06 THEN defect = True,[1],IF la > 31.00 AND 0.01 < asawr <= 0.06 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND ndev > 2.00 AND nrev > 2.00 AND rtime > 4.93 AND ld > 14.00 AND app > 1.00 AND rsexp > 235.00 AND 0.07 < rsawr <= 0.13 AND asexp > 77.00 AND 0.48 < age <= 4.51 AND nd <= 2.00 AND self <= 0.00 THEN defect = True,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ndev <= 5.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND ld > 14.00 AND ent > 0.00 AND nrev > 2.00 AND rtime > 1.08 AND self <= 0.00 AND ndev > 11.00 AND age <= 17.14 AND 0.02 < asawr <= 0.06 AND 0.07 < rsawr <= 0.13 AND 1.00 < app <= 2.00 AND asexp > 17.00 THEN defect = True,[1],IF la > 31.00 AND ent > 0.29 AND nrev > 2.00 AND rtime > 1.08 AND ndev > 5.00 AND age <= 17.14 AND 0.02 < asawr <= 0.06 AND 1.00 < app <= 2.00 AND asexp > 17.00 AND rsexp > 235.00 AND self <= 0.00 AND 0.07 < rsawr <= 0.13 AND hcmt <= 2.00 AND ld > 1.00 THEN defect = True,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF rtime > 1.08 THEN defect = False,[1],IF ld > 14.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF rsexp > 612.00 AND asawr > 0.06 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 AND asawr <= 0.01 THEN defect = False,[1],IF rsawr <= 0.03 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nd > 2.00 THEN defect = False,[1],IF nrev > 1.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF age <= 0.48 THEN defect = False,[1],IF ndev <= 5.00 AND asexp > 212.25 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF rtime <= 4.93 AND ndev <= 5.00 THEN defect = False,[1],IF ndev <= 5.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF nrev > 2.00 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF hcmt > 1.00 THEN defect = False,[1],IF rsexp > 235.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 AND age > 17.14 THEN defect = False,[1],IF asawr <= 0.01 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF rsawr <= 0.07 THEN defect = False,[1],IF app <= 1.00 THEN defect = False,[1],False
+qt,IF rsexp <= 235.00 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF asawr > 0.02 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF rtime <= 0.19 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nd <= 2.00 AND hcmt <= 2.00 THEN defect = False,[1],IF ndev <= 11.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF hcmt <= 2.00 AND asexp > 212.25 THEN defect = False,[1],False
+qt,IF rsexp > 235.00 THEN defect = False,[1],IF rtime <= 4.93 AND rsexp > 235.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF rsexp > 235.00 THEN defect = False,[1],IF nrev > 1.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF rsexp <= 65.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF age > 4.51 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent > 0.00 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF rsawr > 0.03 THEN defect = False,[1],IF rsawr <= 0.13 THEN defect = False,[1],False
+qt,IF ent <= 0.81 AND age > 4.51 THEN defect = False,[1],IF nrev > 1.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF ld <= 3.00 THEN defect = False,[1],IF ld <= 1.00 AND ent <= 0.81 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF age > 17.14 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ns <= 1.00 AND asawr <= 0.02 THEN defect = False,[1],False
+qt,IF age <= 0.48 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la > 31.00 AND rtime > 4.93 AND nd > 2.00 AND 0.29 < ent <= 0.81 AND ndev > 5.00 AND nrev > 2.00 AND 0.48 < age <= 4.51 AND self <= 0.00 AND ld > 14.00 AND 0.02 < asawr <= 0.06 AND 0.03 < rsawr <= 0.13 AND hcmt > 5.00 AND asexp > 17.00 AND 1.00 < app <= 2.00 AND rsexp > 235.00 THEN defect = True,[1],IF la > 31.00 AND nrev > 2.00 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND ndev > 5.00 AND 1.00 < app <= 2.00 AND self <= 0.00 AND 0.48 < age <= 4.51 AND 0.02 < asawr <= 0.06 AND 0.03 < rsawr <= 0.13 AND asexp > 17.00 THEN defect = True,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF asawr <= 0.01 THEN defect = False,[1],False
+qt,IF 0.29 < ent <= 0.81 AND la > 31.00 AND 0.03 < rsawr <= 0.13 AND ns <= 1.00 AND 1.08 < rtime <= 4.93 AND 5.00 < ndev <= 11.00 AND ld > 3.00 AND 0.48 < age <= 4.51 AND nrev > 1.00 AND rsexp > 612.00 AND asexp > 77.00 AND self <= 0.00 AND hcmt > 5.00 AND nd <= 1.00 AND app > 2.00 AND 0.02 < asawr <= 0.06 THEN defect = True,[1],IF la > 31.00 AND asexp > 17.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND 1.08 < rtime <= 4.93 AND nrev > 1.00 AND ld > 3.00 AND hcmt > 5.00 AND 5.00 < ndev <= 11.00 AND 0.02 < asawr <= 0.06 AND 0.03 < rsawr <= 0.13 AND 0.48 < age <= 4.51 AND nd <= 1.00 AND self <= 0.00 THEN defect = True,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF rtime <= 1.08 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF ndev <= 5.00 THEN defect = False,[1],IF rsawr > 0.13 THEN defect = False,[1],False
+qt,IF asexp <= 77.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF age <= 0.48 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 AND asawr <= 0.02 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ndev <= 11.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND 0.48 < age <= 17.14 AND nrev > 2.00 AND asexp > 17.00 AND ndev > 5.00 AND rsawr > 0.03 AND ld > 1.00 AND self <= 0.00 AND rsexp > 235.00 AND asawr > 0.01 THEN defect = True,[1],IF la > 31.00 AND ld > 14.00 AND self <= 0.00 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND nrev > 2.00 AND rtime > 4.93 AND 0.48 < age <= 17.14 AND asexp > 17.00 AND ndev > 5.00 AND asawr > 0.01 AND rsawr > 0.03 AND rsexp > 65.00 THEN defect = True,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF nrev > 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF nrev > 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ndev <= 11.00 AND rsawr <= 0.03 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],True
+qt,IF ns <= 1.00 AND rsawr <= 0.03 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF ld > 1.00 THEN defect = False,[1],IF asexp <= 17.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent > 0.81 THEN defect = False,[1],IF rsexp > 235.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la > 7.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND ndev > 11.00 AND nrev > 2.00 AND rtime > 4.93 AND 0.48 < age <= 17.14 AND hcmt > 5.00 AND app > 1.00 AND asexp > 17.00 AND rsawr > 0.03 AND self <= 0.00 AND asawr <= 0.06 AND rsexp > 235.00 THEN defect = True,[1],IF la > 7.00 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND hcmt > 5.00 AND nrev > 2.00 AND rtime > 4.93 AND asexp > 17.00 AND 0.48 < age <= 17.14 AND ndev > 5.00 AND 0.03 < rsawr <= 0.13 AND 1.00 < app <= 2.00 AND self <= 0.00 AND rsexp > 235.00 THEN defect = True,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF app <= 1.00 THEN defect = False,[1],False
+qt,IF rtime <= 0.19 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ld <= 14.00 THEN defect = False,[1],IF rsawr > 0.03 THEN defect = False,[1],False
+qt,IF la > 31.00 AND asexp > 17.00 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND 0.48 < age <= 17.14 AND ld > 14.00 AND nrev > 2.00 AND rtime > 1.08 AND rsexp > 612.00 AND self <= 0.00 AND 0.07 < rsawr <= 0.13 AND hcmt > 2.00 THEN defect = True,[1],IF la > 31.00 AND 0.48 < age <= 17.14 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND ld > 14.00 AND nrev > 2.00 AND rtime > 1.08 AND 0.03 < rsawr <= 0.13 AND rsexp > 65.00 AND self <= 0.00 AND asexp > 17.00 THEN defect = True,[1],False
+qt,IF la <= 31.00 AND ent > 0.81 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF age > 17.14 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF hcmt > 1.00 THEN defect = False,[1],IF ns > 1.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF nd > 1.00 THEN defect = False,[1],False
+qt,IF ld > 14.00 THEN defect = False,[1],IF asawr <= 0.01 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF age <= 17.14 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ld <= 3.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF app <= 1.00 THEN defect = False,[1],IF app <= 1.00 THEN defect = False,[1],True
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF age > 17.14 AND rsawr <= 0.03 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF ld > 1.00 AND asexp > 77.00 THEN defect = False,[1],False
+qt,IF rtime <= 1.08 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF asexp > 77.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF age <= 4.51 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF ld <= 3.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF nrev <= 1.00 AND app <= 1.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 31.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF asexp > 77.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF asawr <= 0.01 THEN defect = False,[1],IF ld <= 3.00 AND asexp <= 17.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF rtime > 4.93 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND nrev > 2.00 AND app > 1.00 AND ld > 3.00 AND ndev > 5.00 AND 0.01 < asawr <= 0.06 AND hcmt > 5.00 AND rsexp > 235.00 AND 0.48 < age <= 17.14 AND asexp > 17.00 AND self <= 0.00 THEN defect = True,[1],IF la > 31.00 AND asexp > 17.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND ld > 14.00 AND nrev > 2.00 AND rtime > 4.93 AND 0.01 < asawr <= 0.06 AND 5.00 < ndev <= 11.00 AND rsawr <= 0.13 AND self <= 0.00 AND hcmt > 5.00 AND 0.48 < age <= 17.14 THEN defect = True,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF age > 0.48 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 AND rsexp <= 65.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent > 0.81 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF rtime <= 1.08 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF age > 4.51 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF rtime <= 0.19 THEN defect = False,[1],IF ld <= 1.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF asawr <= 0.01 THEN defect = False,[1],IF nrev <= 2.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],True
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],True
+qt,IF la > 7.00 AND 65.00 < rsexp <= 612.00 AND ld > 14.00 AND ns <= 1.00 AND ent > 0.00 AND app <= 2.00 AND ndev > 5.00 AND 4.51 < age <= 17.14 AND asawr > 0.02 AND asexp > 212.25 AND nrev <= 1.00 AND hcmt <= 1.00 AND 0.03 < rsawr <= 0.07 AND self <= 0.00 THEN defect = True,[1],IF la > 7.00 AND ndev > 5.00 AND nd > 2.00 AND ns <= 1.00 AND ent > 0.29 AND ld > 3.00 AND asexp > 17.00 AND age <= 17.14 AND 0.03 < rsawr <= 0.13 AND rsexp > 65.00 THEN defect = True,[1],False
+qt,IF app <= 1.00 THEN defect = False,[1],IF app <= 1.00 THEN defect = False,[1],True
+qt,IF app <= 2.00 THEN defect = False,[1],IF ns <= 1.00 AND age <= 0.48 THEN defect = False,[1],False
+qt,IF 2.00 < la <= 7.00 AND 3.00 < ld <= 14.00 AND asexp > 212.25 AND 0.19 < rtime <= 1.08 AND app <= 1.00 AND ns <= 1.00 AND self <= 0.00 AND ent <= 0.29 AND rsexp <= 235.00 AND hcmt <= 1.00 AND nd <= 1.00 AND 0.48 < age <= 17.14 AND asawr > 0.06 AND nrev <= 1.00 AND ndev <= 2.00 AND rsawr <= 0.13 THEN defect = True,[1],IF 2.00 < la <= 7.00 AND 3.00 < ld <= 14.00 AND app <= 1.00 AND ns <= 1.00 AND nrev <= 1.00 AND ent <= 0.81 AND rsawr <= 0.13 AND 0.48 < age <= 17.14 AND hcmt <= 1.00 AND ndev <= 2.00 AND 0.19 < rtime <= 1.08 AND asexp > 212.25 AND self <= 0.00 AND 65.00 < rsexp <= 235.00 AND asawr > 0.06 AND nd <= 1.00 THEN defect = True,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF asexp <= 17.00 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF asawr <= 0.02 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF age <= 0.48 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF rsexp > 65.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF rtime <= 0.19 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF rsawr <= 0.03 THEN defect = False,[1],IF rsawr <= 0.03 THEN defect = False,[1],True
+qt,IF la <= 31.00 AND rsawr <= 0.03 THEN defect = False,[1],IF asexp > 212.25 THEN defect = False,[1],False
+qt,IF rsexp > 235.00 THEN defect = False,[1],IF rsexp > 235.00 THEN defect = False,[1],True
+qt,IF ent > 0.81 THEN defect = False,[1],IF age > 4.51 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF nrev <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF app <= 1.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF rtime <= 4.93 AND ndev <= 2.00 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF age > 17.14 THEN defect = False,[1],IF rsexp > 612.00 THEN defect = False,[1],False
+qt,IF rsawr > 0.13 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF ndev <= 2.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND 0.29 < ent <= 0.81 AND rtime > 1.08 AND nrev > 2.00 AND 0.48 < age <= 17.14 AND self > 0.00 AND ndev > 5.00 AND 0.07 < rsawr <= 0.13 AND asawr > 0.01 AND app <= 2.00 AND hcmt <= 5.00 AND ld > 3.00 AND rsexp > 65.00 THEN defect = True,[1],IF la > 31.00 AND 1.08 < rtime <= 4.93 AND 0.29 < ent <= 0.81 AND ld > 14.00 AND nrev > 2.00 AND 0.48 < age <= 4.51 AND asexp > 17.00 AND ndev > 5.00 AND asawr > 0.02 AND hcmt > 2.00 AND app <= 2.00 AND 0.07 < rsawr <= 0.13 AND rsexp > 65.00 THEN defect = True,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF 0.02 < asawr <= 0.06 AND ns <= 1.00 AND ent > 0.29 AND ld <= 1.00 AND nd <= 1.00 AND nrev <= 1.00 AND asexp <= 77.00 AND 0.48 < age <= 4.51 AND 2.00 < la <= 7.00 AND 0.03 < rsawr <= 0.07 AND ndev <= 2.00 AND rtime <= 0.19 AND app <= 1.00 AND rsexp <= 65.00 AND hcmt <= 1.00 THEN defect = True,[1],IF 2.00 < la <= 7.00 AND ns <= 1.00 AND 0.03 < rsawr <= 0.07 AND ld <= 1.00 AND rtime <= 1.08 AND ent > 0.00 AND rsexp <= 235.00 AND app <= 1.00 AND 0.48 < age <= 17.14 AND hcmt <= 1.00 AND nrev <= 1.00 AND nd <= 1.00 AND 0.02 < asawr <= 0.06 AND 17.00 < asexp <= 212.25 THEN defect = True,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ndev <= 5.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF ent > 0.81 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF asawr <= 0.01 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND 0.48 < age <= 17.14 AND 0.29 < ent <= 0.81 AND 5.00 < ndev <= 11.00 AND nrev > 2.00 AND rtime > 4.93 AND ld > 14.00 AND 17.00 < asexp <= 212.25 AND app > 1.00 AND 0.07 < rsawr <= 0.13 AND rsexp > 65.00 AND asawr <= 0.06 AND hcmt > 5.00 AND self <= 0.00 THEN defect = True,[1],IF la > 31.00 AND nrev > 2.00 AND 0.07 < rsawr <= 0.13 AND 0.29 < ent <= 0.81 AND rtime > 4.93 AND app > 1.00 AND ndev > 5.00 AND rsexp > 65.00 AND 0.48 < age <= 17.14 AND hcmt > 5.00 AND 17.00 < asexp <= 212.25 AND asawr <= 0.06 AND self <= 0.00 THEN defect = True,[1],False
+qt,IF asexp > 212.25 THEN defect = False,[1],IF ld > 14.00 AND nd <= 1.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF rtime > 4.93 THEN defect = False,[1],IF ld > 14.00 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF ld <= 3.00 THEN defect = False,[1],False
+qt,IF hcmt > 5.00 AND la > 31.00 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND rtime > 1.08 AND nrev > 2.00 AND app > 1.00 AND rsexp > 235.00 AND ndev > 11.00 AND rsawr > 0.03 AND age > 0.48 AND asawr <= 0.06 AND ld > 3.00 AND self <= 0.00 AND asexp > 17.00 THEN defect = True,[1],IF la > 31.00 AND age > 0.48 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND ld > 3.00 AND nrev > 2.00 AND rtime > 1.08 AND ndev > 5.00 AND app > 1.00 AND rsawr > 0.03 AND rsexp > 65.00 AND asawr <= 0.06 AND self <= 0.00 AND asexp > 17.00 THEN defect = True,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF hcmt <= 5.00 THEN defect = False,[1],False
+qt,IF la > 31.00 AND 0.48 < age <= 17.14 AND ns <= 1.00 AND 0.29 < ent <= 0.81 AND ld > 14.00 AND nrev > 2.00 AND 1.08 < rtime <= 4.93 AND rsexp <= 235.00 AND 5.00 < ndev <= 11.00 AND 0.01 < asawr <= 0.06 AND self <= 0.00 AND hcmt > 1.00 AND rsawr <= 0.13 AND nd <= 1.00 AND app <= 1.00 AND asexp > 17.00 THEN defect = True,[1],IF la > 31.00 AND ld > 14.00 AND ns <= 1.00 AND 0.00 < ent <= 0.81 AND 1.08 < rtime <= 4.93 AND nrev > 2.00 AND 0.48 < age <= 4.51 AND nd <= 1.00 AND app <= 1.00 AND rsawr <= 0.07 AND 5.00 < ndev <= 11.00 AND 0.01 < asawr <= 0.06 AND self <= 0.00 AND 65.00 < rsexp <= 235.00 AND asexp > 17.00 AND hcmt > 5.00 THEN defect = True,[1],False
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF rsawr > 0.13 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF rtime <= 1.08 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF rtime > 4.93 THEN defect = False,[1],IF rtime > 4.93 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF asexp > 77.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
+qt,IF nd <= 1.00 AND rsawr <= 0.03 THEN defect = False,[1],IF ent > 0.81 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF age > 17.14 THEN defect = False,[1],IF rsawr <= 0.03 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],True
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF rsawr <= 0.03 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF nrev <= 1.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF asexp > 212.25 THEN defect = False,[1],IF age > 4.51 THEN defect = False,[1],False
+qt,IF ent <= 0.00 THEN defect = False,[1],IF ent <= 0.29 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],True
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],True
+qt,IF app <= 1.00 THEN defect = False,[1],IF ld <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF rsawr <= 0.03 THEN defect = False,[1],False
+qt,IF la <= 7.00 THEN defect = False,[1],IF ent <= 0.00 THEN defect = False,[1],False
+qt,IF age > 17.14 THEN defect = False,[1],IF rtime > 1.08 THEN defect = False,[1],False
+qt,IF rsexp > 612.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF age > 17.14 THEN defect = False,[1],False
+qt,IF ndev <= 2.00 THEN defect = False,[1],IF nrev <= 1.00 THEN defect = False,[1],False
+qt,IF la <= 2.00 THEN defect = False,[1],IF la <= 31.00 THEN defect = False,[1],False
+qt,IF la <= 31.00 THEN defect = False,[1],IF la <= 7.00 THEN defect = False,[1],False
+qt,IF ent <= 0.29 THEN defect = False,[1],IF la <= 2.00 THEN defect = False,[1],False
