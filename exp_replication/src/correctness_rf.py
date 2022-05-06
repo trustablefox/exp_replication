@@ -520,8 +520,6 @@ class SATEncoder(object):
     """
 
     def __init__(self, forest, feats, nof_classes, extended_feature_names, from_file=None):
-        print("feats: ", feats)
-        print("from_file: ", from_file)
         self.forest = forest
         #self.feats = {f: i for i, f in enumerate(feats)}
         self.num_class = nof_classes
