@@ -459,7 +459,6 @@ class XRF(object):
             Explain a prediction made for a given sample with a previously
             trained RF.
         """
-        print("inst: ", inst)
         if 'enc' not in dir(self):
             self.encode(hexpl, pred)
 
