@@ -10,9 +10,11 @@
 from __future__ import print_function
 import collections
 import itertools
-import pickle
+import os, pickle
 import six
 from six.moves import range
+import numpy as np
+
 
 #
 #==============================================================================
@@ -87,7 +89,7 @@ class Data(object):
 
         # reading preamble
         self.names = lines[0].strip().split(separator)
-        self.feats = [set([]) for _ in self.names]
+        self.feats = [set([]) for n in self.names]
         del(lines[0])
 
         # filling name to id mapping
@@ -113,7 +115,7 @@ class Data(object):
             self.wghts.append(w)
 
         # direct and opposite mappings for items
-        _ = itertools.count(start=0)
+        idpool = itertools.count(start=0)
         FVMap = collections.namedtuple('FVMap', ['dir', 'opp'])
         self.fvmap = FVMap(dir={}, opp={})
 

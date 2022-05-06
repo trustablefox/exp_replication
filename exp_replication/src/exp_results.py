@@ -21,9 +21,7 @@ def correct(j, dtn2m):
 
     openstack_X_test = pd.read_csv('./dataset/openstack_X_test.csv')
     qt_X_test = pd.read_csv('./dataset/qt_X_test.csv')
-
-    # dt2df
-    _ = {'openstack': openstack_X_test,
+    dt2df = {'openstack': openstack_X_test,
              'qt': qt_X_test}
 
     rows = check_correct(explainer, stats, dtn2m, global_model_name)
@@ -42,6 +40,7 @@ def correct(j, dtn2m):
 def check_correct(appr, stats, dtn2m, global_model_name):
     rows = []
     rows.append(['dataset', 'inst', 'predrule', 'isaxp'])
+    i = 0
 
     data_path = './dataset/'
     proj_name2data = {proj_name: Dataset(filename=data_path + proj_name + '.csv') for proj_name in ['openstack', 'qt']}
@@ -49,7 +48,7 @@ def check_correct(appr, stats, dtn2m, global_model_name):
 
     insts = sorted(stats.keys())
 
-    for _, inst in enumerate(insts):
+    for id , inst in enumerate(insts):
 
         dt = inst.split('_')[0]
 
@@ -263,14 +262,19 @@ def rtime(j):
 
     if explainer == 'pyexplainer':
         rows = rtime_pyexplainer(stats_0, stats_1)
+        pass
     elif explainer == 'lime':
         rows = rtime_lime(stats_0, stats_1)
+        pass
     elif explainer == 'shap':
         rows = rtime_shap(stats_0, stats_1)
+        pass
     elif explainer == 'anchor':
         rows = rtime_anchor(stats_0, stats_1)
+        pass
     elif explainer == 'formal':
         rows = rtime_formal(stats_0, stats_1)
+        pass
 
     rtime_fn = j.replace('../expls/0_', './stats/rtime/').replace('.json', '.csv')
     rtime_dir = rtime_fn[: rtime_fn.rfind('/') + 1]
@@ -384,7 +388,7 @@ def size(j):
         write.writerow(rows[0])
         write.writerows(rows[1:])
 
-def size_pyexplainer(stats_0, _):
+def size_pyexplainer(stats_0, stats_1):
     rows = []
     header = ['dataset', 'size' ]
     rows.append(header)
@@ -399,7 +403,7 @@ def size_pyexplainer(stats_0, _):
         rows.append(row)
     return rows
 
-def size_formal(stats_0, _):
+def size_formal(stats_0, stats_1):
     rows = []
     header = ['dataset', 'axpsize', 'cxpsize' ]
     rows.append(header)

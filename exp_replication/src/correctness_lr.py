@@ -2,10 +2,15 @@
 #-*- coding:utf-8 -*-
 
 import pandas as pd
-import pickle
+from rndmforest  import Dataset
+import sys, os,  pickle
+from options import Options
 from pysat.solvers import Solver
 import resource
+import statistics
+from train_global_model import prepare_data, train_global_model, eval_global_model
 import pandas as pd
+import numpy as np
 
 class LRExplainer(object):
     def __init__(self, data, options):
@@ -43,8 +48,7 @@ class LRExplainer(object):
         self.lbounds = pd.Series(self.lbounds, index=self.fnames)
         self.ubounds = pd.Series(self.ubounds, index=self.fnames)
 
-    # inst
-    def free_attr(self, i, _, lbounds, ubounds, deset, inset):
+    def free_attr(self, i, inst, lbounds, ubounds, deset, inset):
         lbounds[i] = self.lbounds[i]
         ubounds[i] = self.ubounds[i]
         deset.remove(i)
@@ -63,8 +67,7 @@ class LRExplainer(object):
     def explain(self, inst):
 
         self.hypos = list(range(len(inst)))
-        # pred
-        _ = self.model.predict([inst])[0]
+        pred = self.model.predict([inst])[0]
 
         self.time = {'abd': 0, 'con': 0}
         time = resource.getrusage(resource.RUSAGE_CHILDREN).ru_utime + \
@@ -92,14 +95,12 @@ class LRExplainer(object):
                     assert self.validate(inst, exp, xtype)
 
         if self.options.verb > 0:
-            # preamble
-            _ = ['{0} = {1}'.format(self.fnames[i], inst[i]) for i in self.hypos]
+            preamble = ['{0} = {1}'.format(self.fnames[i], inst[i]) for i in self.hypos]
             #print('\n  Explaining: IF {0} THEN {1} = {2}'.format(' AND '.join(preamble), self.label, pred))
 
             xtype = 'abd' if self.options.xtype in ['abd', 'abductive'] else 'con'
             for exp in self.exps[xtype]:
-                # preamble
-                _ = ['{0} {1} {2}'.format(self.fnames[i], '=' if xtype == 'abd' else '!=', inst[i])
+                preamble = ['{0} {1} {2}'.format(self.fnames[i], '=' if xtype == 'abd' else '!=', inst[i])
                             for i in sorted(exp)]
 
                 #print('  {}: IF {} THEN {} {} {}'.format(xtype,
@@ -111,8 +112,7 @@ class LRExplainer(object):
 
             xtype_ = 'abd' if xtype == 'con' else 'con'
             for exp in self.exps[xtype_]:
-                # preamble
-                _ = ['{0} {1} {2}'.format(self.fnames[i], '=' if xtype_ == 'abd' else '!=', inst[i])
+                preamble = ['{0} {1} {2}'.format(self.fnames[i], '=' if xtype_ == 'abd' else '!=', inst[i])
                             for i in sorted(exp)]
 
                 #print('  {}: IF {} THEN {} {} {}'.format(xtype_,
@@ -122,8 +122,7 @@ class LRExplainer(object):
                 #                                     pred))
                 #print('  # size: {0}'.format(len(exp)))
 
-            # xtypes
-            _ = ['abd', 'con'] if self.options.xnum != 1 else [xtype]
+            xtypes = ['abd', 'con'] if self.options.xnum != 1 else [xtype]
 
             #for xtype in xtypes:
             #    print('  {0} time: {1:.2f}'.format(xtype, self.time[xtype]))
@@ -224,8 +223,12 @@ class LRExplainer(object):
 
     def isAXp(self, inst, hexpl, columns, pred):
         self.hypos = sorted(map(lambda l: int(l[1:]), hexpl.keys()))
+        #print(f'\ninst: {inst}')
+        #print('pred:', pred)
+        #print(hexpl)
+        #print(f'self.hypos: {self.hypos}')
 
-        isAXp, _, expl_ = self.extract_AXp_h(hexpl)
+        isAXp, isRedundant, expl_ = self.extract_AXp_h(hexpl)
         expl_ = [hexpl['f{0}'.format(s)] for s in sorted(expl_)]
         expl = []
 
@@ -358,10 +361,10 @@ class LRExplainer(object):
         return isAXp, isRedundant, expl
 
     def free_attr_h(self, i, init_lbounds, init_ubounds, lbounds, ubounds, deset, inset):
-        print("init_lbounds: ", init_lbounds)
-        print("init_ubounds: ", init_ubounds)
         lbounds[i] = self.lbounds[i]
         ubounds[i] = self.ubounds[i]
+        deset.remove(i)
+        inset.add(i)
 
     def fix_attr_h(self, i, init_lbounds, init_ubounds, lbounds, ubounds, deset, inset):
 

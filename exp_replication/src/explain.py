@@ -11,6 +11,7 @@ from options import Options
 import os
 import sys
 from rndmforest import XRF, Dataset
+import numpy as np
 import random
 import pandas as pd
 

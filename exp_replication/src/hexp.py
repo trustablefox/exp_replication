@@ -4,13 +4,17 @@
 #
 #==============================================================================
 from __future__ import print_function
+import statistics
 import os
 import sys
 import numpy as np
 from pyexplainer.pyexplainer_pyexplainer import PyExplainer as pyexp
+from pyexplainer import pyexplainer_pyexplainer
 import pandas as pd
 import pickle
+import time
 import resource
+import csv
 import random
 import lime
 import lime.lime_tabular
@@ -83,7 +87,6 @@ class HExplainer(object):
         print(f'  time: {self.time}\n')
 
     def pyexplainer_explain(self, X, y, pred):
-        print("pred: ", pred)
         top_k = 3
         rules = self.explainer.explain(X_explain=X, y_explain=y, top_k=top_k, search_function='CrossoverInterpolation')
         top_k_positive_rules = rules['top_k_positive_rules']['rule'].to_list()
@@ -114,7 +117,7 @@ class HExplainer(object):
 
         print(f'  nof rules: {len(all_rules)}')
 
-    def lime_explain(self, X, _, pred):
+    def lime_explain(self, X, y, pred):
         #predict_fn = lambda x: self.model.predict_proba(x).astype(float)
 
         expl = self.explainer.explain_instance(X.iloc[0, :],
@@ -147,7 +150,7 @@ class HExplainer(object):
         #if prob0 == prob1:
         #    exit()
 
-    def shap_explain(self, X, _, pred):
+    def shap_explain(self, X, y, pred):
         shap_values = self.explainer.shap_values(X)
         shap_values_sample = shap_values[int(pred)][0] if self.global_model_name == 'RF' else shap_values[0]
 
@@ -165,11 +168,11 @@ class HExplainer(object):
         print('  expl(neg class):', [(self.X_train.columns[int(f)], imprt) for f, imprt in ynot_expl])
         print('  size:', len(ynot_expl))
 
-    def anchor_explain(self, X, _, pred):
+    def anchor_explain(self, X, y, pred):
         exp = self.explainer.explain_instance(X.values[0], self.model.predict, threshold=0.95)
 
         # explanation
-        expl = [name for _, name in sorted(zip(exp.features(), exp.names()))]
+        expl = [name for f, name in sorted(zip(exp.features(), exp.names()))]
 
         preamble = ' AND '.join(expl)
 

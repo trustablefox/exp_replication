@@ -1,7 +1,11 @@
 #
 #==============================================================================
-from anytree import Node
+from anytree import Node, RenderTree,AsciiStyle
+import json
 import numpy as np
+import math
+import os
+
 
 #
 #==============================================================================
@@ -136,7 +140,7 @@ class Forest:
         self.sz = sum([dt.tree_.node_count for dt in rf.estimators()])
         self.md = max([dt.tree_.max_depth for dt in rf.estimators()])
         ####
-        _ = [dt.tree_.node_count for dt in rf.estimators()]
+        nb_nodes = [dt.tree_.node_count for dt in rf.estimators()]
         #print("min: {0} | max: {1}".format(min(nb_nodes), max(nb_nodes)))
         assert([dt.tree_.node_count for dt in rf.estimators()] == [count_nodes(dt) for dt in self.trees])
         #self.print_trees()
@@ -158,7 +162,7 @@ class Forest:
         print("#Trees: ", len(self.trees))
         for sample in np.asarray(samples):
             scores = []
-            for _, t in enumerate(self.trees):
+            for i,t in enumerate(self.trees):
                 s = predict_tree(t, sample)
                 scores.append((s))
             scores = np.asarray(scores)

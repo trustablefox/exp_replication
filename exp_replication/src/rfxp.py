@@ -12,7 +12,7 @@ from options import Options
 import os
 import sys
 import pickle
-from rndmforest  import XRF, Dataset
+from rndmforest  import XRF, RF2001, Dataset, VotingRF
 import numpy as np
 import statistics
 from train_global_model import prepare_data, train_global_model, eval_global_model, load_change_metrics_df

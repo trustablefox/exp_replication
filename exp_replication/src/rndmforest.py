@@ -5,6 +5,8 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import numpy as np
+import sys
+import os
 import resource
 
 import collections
@@ -15,9 +17,11 @@ import math
 from data import Data
 from tree import Forest, predict_tree, build_tree
 #from .encode import SATEncoder
-from pysat.formula import CNF, IDPool
+from pysat.formula import CNF, WCNF, IDPool
 from pysat.solvers import Solver
+from pysat.examples.rc2 import RC2
 from pysat.card import CardEnc, EncType
+from itertools import combinations
 from pysat.examples.hitman import Hitman
 import pickle
 
@@ -208,8 +212,6 @@ class VotingRF(VotingClassifier):
     """
 
     def fit(self, X, y, sample_weight=None):
-        print("X", X)
-        print("sample_weight", sample_weight)
         self.estimators_ = []
         for _, est in self.estimators:
             self.estimators_.append(est)
@@ -272,7 +274,7 @@ class RF2001(object):
 
 
 
-    def train(self, dataset, _):
+    def train(self, dataset, outfile=None):
         """
             Train a random forest.
         """
@@ -317,7 +319,7 @@ class RF2001(object):
     def predict(self, X):
 
         majs = []
-        for _, inst in enumerate(X):
+        for id, inst in enumerate(X):
             scores = [predict_tree(dt, inst) for dt in self.trees]
             scores = np.asarray(scores)
             maj = np.argmax(np.bincount(scores))
@@ -407,7 +409,7 @@ class XRF(object):
                                   self.data.extended_feature_names_as_array_strings)
 
         inst = self.data.transform(np.array(inst))[0]
-        _, _, _, _ = self.enc.encode(inst)
+        formula, _, _, _ = self.enc.encode(inst)
 
     def explain(self, inst):
         """
@@ -471,10 +473,8 @@ class SATEncoder(object):
         Encoder of Random Forest classifier into SAT.
     """
 
-    def __init__(self, forest, feats, nof_classes, extended_feature_names, from_file=None):
+    def __init__(self, forest, feats, nof_classes, extended_feature_names,  from_file=None):
         self.forest = forest
-        self.feats = feats
-        self.from_file = from_file
         #self.feats = {f: i for i, f in enumerate(feats)}
         self.num_class = nof_classes
         self.vpool = IDPool()
@@ -682,7 +682,7 @@ class SATEncoder(object):
 
 
         # introducing class-tree variables
-        ctvars = [[] for _ in range(num_tree)]
+        ctvars = [[] for t in range(num_tree)]
         for k in range(num_tree):
             for j in range(self.num_class):
 
@@ -1138,7 +1138,7 @@ class SATExplainer(object):
                 self.calls += 1
                 if self.slv.solve(assumptions=[vtaut] + hset):
                     to_hit = []
-                    _, unsatisfied = [], []
+                    satisfied, unsatisfied = [], []
 
                     removed = list(set(self.assums).difference(set(hset)))
 

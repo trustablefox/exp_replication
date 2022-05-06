@@ -2,10 +2,15 @@
 #-*- coding:utf-8 -*-
 
 import pandas as pd
-import pickle
+from rndmforest  import Dataset
+import sys, os,  pickle
+from options import Options
 from pysat.solvers import Solver
 import resource
+import statistics
+from train_global_model import train_global_model, eval_global_model
 import pandas as pd
+import numpy as np
 
 class LRExplainer(object):
     def __init__(self, data, options):
@@ -43,13 +48,14 @@ class LRExplainer(object):
         self.lbounds = pd.Series(self.lbounds, index=self.fnames)
         self.ubounds = pd.Series(self.ubounds, index=self.fnames)
 
-    def free_attr(self, i, _, lbounds, ubounds, deset, inset):
+    def free_attr(self, i, inst, lbounds, ubounds, deset, inset):
         lbounds[i] = self.lbounds[i]
         ubounds[i] = self.ubounds[i]
         deset.remove(i)
         inset.add(i)
 
     def fix_attr(self, i, inst, lbounds, ubounds, deset, inset):
+
         lbounds[i] = inst[i]
         ubounds[i] = inst[i]
         deset.remove(i)

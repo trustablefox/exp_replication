@@ -5,6 +5,8 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import numpy as np
+import sys
+import os
 import resource
 
 import collections
@@ -15,12 +17,21 @@ import math
 from data import Data
 from tree import Forest, predict_tree, build_tree
 #from .encode import SATEncoder
-from pysat.formula import CNF, IDPool
+from pysat.formula import CNF, WCNF, IDPool
 from pysat.solvers import Solver
+from pysat.examples.rc2 import RC2
 from pysat.card import CardEnc, EncType
+from itertools import combinations
 from pysat.examples.hitman import Hitman
 import pickle
 
+
+import statistics
+from lrxp import LRExplainer
+from train_global_model import prepare_data, train_global_model, eval_global_model
+from options import Options
+import random
+import pandas as pd
 #
 #==============================================================================
 
@@ -116,7 +127,7 @@ class Dataset(Data):
         if (self.use_categorical):
             assert(self.binarizer != [])
             inverse_x = []
-            for _, xi in enumerate(x):
+            for i, xi in enumerate(x):
                 inverse_xi = np.zeros(self.nb_features)
                 for f in range(self.nb_features):
                     if f in self.categorical_features:
@@ -208,7 +219,6 @@ class VotingRF(VotingClassifier):
     """
 
     def fit(self, X, y, sample_weight=None):
-        print(X, " ", sample_weight)
         self.estimators_ = []
         for _, est in self.estimators:
             self.estimators_.append(est)
@@ -275,7 +285,7 @@ class RF2001(object):
         """
             Train a random forest.
         """
-        print("outfile: ", outfile)
+
         X_train, X_test, y_train, y_test = dataset.train_test_split()
 
         if self.opt.verb:
@@ -287,7 +297,7 @@ class RF2001(object):
         print("Build a random forest.")
         self.forest.fit(X_train,y_train)
 
-        rtrees = [ ('dt', dt) for _, dt in enumerate(self.forest.estimators_)]
+        rtrees = [ ('dt', dt) for i, dt in enumerate(self.forest.estimators_)]
         self.voting = VotingRF(estimators=rtrees)
         self.voting.fit(X_train,y_train)
 
@@ -316,7 +326,7 @@ class RF2001(object):
     def predict(self, X):
 
         majs = []
-        for _, inst in enumerate(X):
+        for id, inst in enumerate(X):
             scores = [predict_tree(dt, inst) for dt in self.trees]
             scores = np.asarray(scores)
             maj = np.argmax(np.bincount(scores))
@@ -398,7 +408,7 @@ class XRF(object):
             self.f = Forest(self.cls, self.data.extended_feature_names_as_array_strings)
             #self.f.print_tree()
 
-        _ = resource.getrusage(resource.RUSAGE_CHILDREN).ru_utime + \
+        time = resource.getrusage(resource.RUSAGE_CHILDREN).ru_utime + \
                 resource.getrusage(resource.RUSAGE_SELF).ru_utime
 
         #if self.opt_encoding == "maxsat":
@@ -410,7 +420,7 @@ class XRF(object):
 
         if pred is None:
             inst = self.data.transform(np.array(inst))[0]
-        _, _, _, _ = self.enc.encode(inst, pred)
+        formula, _, _, _ = self.enc.encode(inst, pred)
 
         #time = resource.getrusage(resource.RUSAGE_CHILDREN).ru_utime + \
         #        resource.getrusage(resource.RUSAGE_SELF).ru_utime - time
@@ -459,6 +469,7 @@ class XRF(object):
             Explain a prediction made for a given sample with a previously
             trained RF.
         """
+
         if 'enc' not in dir(self):
             self.encode(hexpl, pred)
 
@@ -480,14 +491,11 @@ class XRF(object):
         self.x = SATExplainer(self.enc, inps, preamble, self.label, self.data.class_names, options=self.options, verb=self.verbose)
         #inst = self.data.transform(np.array(inst))[0]
         #expls = self.x.explain(np.array(inst))
-        
-        # isRedundant, expl 
-        isAXp, _, _ = self.x.isAXp(hexpl, columns)
+        isAXp, isRedundant, expl = self.x.isAXp(hexpl, columns)
 
         #hexp =
-        
-        # time
-        _ = self.x.time
+
+        time = self.x.time
 
         return isAXp
 
@@ -518,7 +526,7 @@ class SATEncoder(object):
         Encoder of Random Forest classifier into SAT.
     """
 
-    def __init__(self, forest, feats, nof_classes, extended_feature_names, from_file=None):
+    def __init__(self, forest, feats, nof_classes, extended_feature_names,  from_file=None):
         self.forest = forest
         #self.feats = {f: i for i, f in enumerate(feats)}
         self.num_class = nof_classes
@@ -1195,7 +1203,7 @@ class SATExplainer(object):
         #            resource.getrusage(resource.RUSAGE_SELF).ru_utime
 
         self.time = {'abd': 0, 'con': 0}
-        _ = resource.getrusage(resource.RUSAGE_CHILDREN).ru_utime + \
+        time = resource.getrusage(resource.RUSAGE_CHILDREN).ru_utime + \
                         resource.getrusage(resource.RUSAGE_SELF).ru_utime
 
 
@@ -1348,8 +1356,7 @@ class SATExplainer(object):
                 self.calls += 1
                 if self.slv.solve(assumptions=[vtaut] + hset):
                     to_hit = []
-                    # satisfied
-                    _, unsatisfied = [], []
+                    satisfied, unsatisfied = [], []
 
                     removed = list(set(self.assums).difference(set(hset)))
 
@@ -1513,9 +1520,8 @@ class SATExplainer(object):
 
         print("Model:", str_model)
         ###print(self.slv.get_model())
-        
-        # num_tree
-        _ = len(self.enc.forest.trees)
+
+        num_tree = len(self.enc.forest.trees)
         num_class = self.enc.num_class
         occ = [0]*num_class
 
