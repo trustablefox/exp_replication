@@ -77,4 +77,4 @@ cd exp_replication/src
 ./experiment/experiment_rq3.sh
 ```
 
-For more information of training and explaining each model, please click [here](https://github.com/foxplainer/foxplainer/tree/main/exp_replication/src).
+For more information of training and explaining each model, please click [here](https://github.com/trustablefox/exp_replication/tree/main/exp_replication/src).
