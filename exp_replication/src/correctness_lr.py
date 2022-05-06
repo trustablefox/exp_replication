@@ -224,10 +224,6 @@ class LRExplainer(object):
 
     def isAXp(self, inst, hexpl, columns, pred):
         self.hypos = sorted(map(lambda l: int(l[1:]), hexpl.keys()))
-        print(f'\ninst: {inst}')
-        print('pred:', pred)
-        print(hexpl)
-        print(f'self.hypos: {self.hypos}')
 
         isAXp, _, expl_ = self.extract_AXp_h(hexpl)
         expl_ = [hexpl['f{0}'.format(s)] for s in sorted(expl_)]
@@ -366,8 +362,6 @@ class LRExplainer(object):
         print("init_ubounds: ", init_ubounds)
         lbounds[i] = self.lbounds[i]
         ubounds[i] = self.ubounds[i]
-        deset.remove(i)
-        inset.add(i)
 
     def fix_attr_h(self, i, init_lbounds, init_ubounds, lbounds, ubounds, deset, inset):
 
