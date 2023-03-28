@@ -36,7 +36,7 @@ cd exp_replication/src
 ```
 
 ### Replication of Enumeration Explanations 0
-First time to run the set of experiments. All logs are saved in *logs*. Note that the experiments take a while
+First time to run the set of experiments. All logs are saved in *exp_replication/logs*. Note that the experiments take a while
 ```bash
 cd exp_replication/src
 ./experiment/experiment_fox_0.sh && ./experiment/experiment_other_0.sh
