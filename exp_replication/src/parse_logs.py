@@ -3,6 +3,10 @@ import os
 import sys
 import collections
 import json
+try:
+    from .stats import axp_stats
+except:
+    from stats import axp_stats
 
 def cmptmax(files, key):
     maxkey = 0
@@ -148,7 +152,8 @@ def parse_lime(dataset, config, insts_ids, lines, info_dict):
 
             if 'time:' in line and 'tot time:' not in line:
                 time = float(line.split(':')[-1])
-
+        inst = lines[id].split(' IF ', maxsplit=1)[-1].rsplit(' THEN ', maxsplit=1)[0].split(' AND ')
+        inst = {f.strip(): fid for fid, f in enumerate(inst)}
         info_dict[config]['stats'][inst_name] = {'status': True,
                                                  'inst': lines[id][lines[id].find('IF')+2: lines[id].rfind('THEN')].strip(),
                                                  'rtime': time,
@@ -159,6 +164,17 @@ def parse_lime(dataset, config, insts_ids, lines, info_dict):
                                                  'oppdrule': negrule if pred else posrule,
                                                  'opplits': neglits if pred else poslits,
                                                  'oppdimprt': negimprt if pred else posimprt}
+
+        f2imprt = {}
+        prule = info_dict[config]['stats'][inst_name]['predrule'].split(' AND ')
+        for f, imprt in zip(prule, info_dict[config]['stats'][inst_name]['predimprt']):
+            f2imprt[inst[f.strip()]] = imprt
+
+        orule = info_dict[config]['stats'][inst_name]['oppdrule'].split(' AND ')
+        for f, imprt in zip(orule, info_dict[config]['stats'][inst_name]['oppdimprt']):
+            f2imprt[inst[f.strip()]] = imprt
+
+        info_dict[config]['stats'][inst_name]['f2imprt'] = f2imprt
 
 def parse_shap(dataset, config, insts_ids, lines, info_dict):
     return parse_lime(dataset, config, insts_ids, lines, info_dict)
@@ -220,19 +236,26 @@ def parse_formal(dataset, config, insts_ids, lines, info_dict):
 
         for xtype in rules:
             rules[xtype].sort(key=lambda l: l[-1])
+        inst = lines[id].split(' IF ', maxsplit=1)[-1].rsplit(' THEN ', maxsplit=1)[0].split(' AND ')
+        inst = {f.strip(): fid for fid, f in enumerate(inst)}
+        abd_ids = [[inst[f.strip()] for f in abd.split(" AND ")] for abd, abd_list in rules['abd']]
+
+        ffa = axp_stats(abd_ids)
 
         info_dict[config]['stats'][inst_name] = {'status': True,
                                                  'inst': lines[id][lines[id].find('IF')+2: lines[id].rfind('THEN')].strip(),
+                                                 'inst-ids': insts_ids,
                                                  'pred': pred,
                                                  'abdrtime': abd_time,
+                                                 'abds': [r[0] for r in rules['abd']],
                                                  'abd': rules['abd'][0][0],
                                                  'abdlits': rules['abd'][0][1],
                                                  'nofabds': len(rules['abd']),
                                                  'conrtime': con_time,
                                                  'con': rules['con'][0][0],
                                                  'conlits': rules['con'][0][1],
-                                                 'nofcons': len(rules['con'])
-                                                 }
+                                                 'nofcons': len(rules['con']),
+                                                  'ffa': ffa}
 
 if __name__ == '__main__':
 

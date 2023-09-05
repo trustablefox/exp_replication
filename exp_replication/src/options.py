@@ -59,9 +59,9 @@ class Options(object):
         if self.inst and self.xtype is None:
             self.xtype = 'abd'
 
-        if self.xtype and self.inst is None:
-            print('Please indicate the dataset to be explained')
-            exit(1)
+        #if self.xtype and self.inst is None:
+        #    print('Please indicate the dataset to be explained')
+        #    exit(1)
 
 
     def parse(self, command):
